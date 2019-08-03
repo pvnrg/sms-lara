@@ -1,0 +1,372 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use App\Company;
+use App\Site;
+use App\Building;
+use App\Service;
+use App\Subject;
+use App\Ticket;
+use App\Availability;
+use App\People;
+
+class AllSeeder extends Seeder
+{
+    /**
+     * Atlu karvanu chhe
+     * We should have:
+     * 1 company ->completed
+     * 3 services -> completed
+     * 2 buildings -> completed
+     * 10 people -> completed
+     * 50 tickets -> completed
+     * 3-4 subject --> completed
+     *
+     *
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+
+        //first truncate these tables ok
+        Company::truncate();
+        Site::truncate();
+        Building::truncate();
+        Service::truncate();
+        Subject::truncate();
+        Ticket::truncate();
+
+
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+
+        //seed compnay (one)
+        $company = $this->seedCompany();//-> completed
+
+//        //seed site by passing company object which we got in upper function
+        $site = $this->seedSite($company);//->completed
+//
+//        //seed building using site object
+        $buildings = $this->seedBuilding($site);//completed
+//
+        $services = $this->seedServices($site);
+//
+//        //todo make people 10 in database and relate to services
+//        //call here
+        $this->seedPeople($services);//which is require site id service id etc
+//        //a database ma joine kari de
+//
+//        //todo make subject seeder 3-4 static
+//
+        $subject = $this->seedSubject($site);
+//
+//        //todo make 50 ticket in database using random user_id and subject
+//
+        $this->seedTicket($subject);
+
+
+    }
+
+
+    public function seedTicket($subject)
+    {
+
+        $faker = \Faker\Factory::create();
+
+        $tickets = [];
+
+
+        foreach (range(1, 50) as $tic) {
+
+            $tickets = Ticket::create(
+                [
+                    '_website_id' => 2,
+                    'title' => $faker->realText(10),
+                    'subject_id' => rand(1, 3),
+                    'user_id' => rand(1, 5),
+                    'content' => $faker->realText(),
+                    'status' => 'pending'
+                ]
+
+            );
+
+        }
+
+
+    }
+
+
+    public function seedSubject(Site $site)
+    {
+
+
+        $subjectsss = [
+
+            'billing',
+            'cleaning',
+            'services'
+
+        ];
+
+        $return = [];
+
+
+        foreach ($subjectsss as $name) {
+
+            $subject = Subject::create(
+                [
+                    '_website_id' => 2,
+                    'name' => $name,
+//                    'name' => $site->name,
+                    'site_id' => $site->id,
+                    'time' => '1.30 hours',
+                    'file' => '2017-06-19-11-12-305947b19ee11de-pdf.pdf',
+                ]
+            );
+
+
+            \DB::table('subject_people')->where('subject_id', $subject->id)->delete();
+
+            $subjects = \DB::table('subject_people')->insert([
+                'subject_id' => $subject->id,
+                'people_id' => rand(1, 3),
+                'priority' => rand(1, 0),
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now(),
+            ]);
+
+            $return[] = $subject;
+
+        }
+        return $return;
+
+    }
+
+
+    //i created function people
+    public function seedPeople($services)
+    {
+        //we get arrray of object
+        //next khaber padi?
+        //
+        //10
+
+        $faker = \Faker\Factory::create();
+
+        $peoples = [];
+
+
+//        die($faker->bankAccountNumber);
+
+        foreach (range(1, 10) as $i) {
+
+
+            $people = People::create(
+                [
+                    '_website_id' => 2,
+                    'user_id' => 0,
+                    'title' => $faker->title(10),
+                    'first_name' => $faker->firstName,
+                    'last_name' => $faker->lastName,
+//                    'quality' => 0,
+                    'phone_number_1' => 420,
+                    'phone_type_1' => 1,
+                    'phone_number_2' => 450,
+                    'phone_type_2' => 2,
+                    'emergency_password' => bcrypt(123456),
+                    'availability' => true,
+//                    'hold_key' =/**/> 1,
+                    'photo' => 'default.png',
+                    'active' => true,
+                ]);
+
+
+            //todo availability add karavani
+            Availability::where('people_id', $people->id)->forceDelete();
+
+
+            $av = [
+                'monday' => [
+                    'from' => '08:00',
+                    'to' => '12:00'
+
+                ],
+                'tuesday' => [
+                    'from' => '08:20',
+                    'to' => '12:00'
+
+                ],
+                'wednesday' => [
+                    'from' => '08:20',
+                    'to' => '12:00'
+
+                ],
+                'wednesday' => [
+                    'from' => '08:20',
+                    'to' => '12:00'
+
+                ],
+                'friday' => [
+                    'from' => '08:20',
+                    'to' => '12:00'
+
+                ],
+                'saturday' => [
+                    'from' => '08:20',
+                    'to' => '12:00'
+
+                ],
+                'sunday' => [
+                    'from' => '08:20',
+                    'to' => '12:00'
+
+                ],
+            ];
+
+            foreach ($av as $key => $value) {
+                //done  remove data where pople_id = $request->id
+                Availability::create([
+                    'day' => strtolower($key),
+                    'time' => $value['from'] . ' - ' . $value['to'],
+                    'people_id' => $people->id,
+                ]);
+            }
+
+
+            //todo assign services
+            $toAdd = rand(1, 3);
+            $people->services()->sync($toAdd);
+
+            $peoples[] = $people;
+        }
+
+        return $peoples;
+
+    }
+
+
+    /**
+     * Seed Company
+     * @return mixed
+     */
+    public function seedCompany()
+    {
+        //this function return company object
+        return Company::create([
+            '_website_id' => 2,
+            'name' => 'CitrusBug',
+//            'business_type'=>''
+//        'logo'=>''
+//        'reference'=>''
+            'address' => 'Ahmedabad',
+            'city' => 'Ahmedabad',
+            'postcode' => 382480,
+            'country' => 'AU',
+            'phone_number_1' => '459845145',
+            'phone_number_2' => '459845145',
+            'phone_type_1' => 1,
+            'phone_type_2' => 2,
+            'active' => true,
+//            'created_by' => 1,
+//            'updated_by' => 1
+        ]);
+    }
+
+
+    /**
+     * Seed Site
+     * @param Company $company
+     * @return mixed
+     */
+    public function seedSite(Company $company)
+    {
+        //this function return site object
+        return Site::create([
+
+            '_website_id' => 2,
+            'company_id' => $company->id,//we used company object here
+            'name' => 'Usmanpura',
+            'address' => $company->address,
+            'city' => $company->city,
+            'postcode' => $company->postcode,
+            'country' => $company->country,
+            'phone_number_1' => $company->phone_number_1,
+            'phone_number_2' => $company->phone_number_2,
+            'phone_type_1' => $company->phone_type_1,
+            'phone_type_2' => $company->phone_type_2,
+            'site_type' => 1,
+//            'logo'
+            'access_conditions' => 'Some condition to access',
+            'default_email' => 'pascal@totalsimplicit.com',
+//            'created_by'=>1
+
+        ]);
+    }
+
+
+    /**
+     * Here we are creating 2 building using site ob\ject
+     * @param Site $site
+     * @return array
+     */
+    public function seedBuilding(Site $site)
+    {
+        $return = [];
+        $return[] = Building::create(
+            [
+                '_website_id' => 2,
+                'name' => 'SukhSagar Complex',
+                'address' => 'Usmanpura, Ahmedabad',
+                'site_id' => $site->id,
+                'active' => true
+
+            ]);
+        $return[] = Building::create(
+            [
+                '_website_id' => 2,
+                'name' => 'Mahasagar Complex',
+                'address' => 'Usmanpura, Ahmedabad',
+                'site_id' => $site->id,
+                'active' => true
+            ]);
+        return $return;
+        //return array contain two oject ok?ok
+    }
+
+
+    /**
+     * @param Site $site
+     */
+    public function seedServices(Site $site)
+    {
+
+        $ser = [
+            'Security',//1
+            'Courier',//2
+            'Cleaning'//3
+        ];
+
+
+        $return = [];
+
+        //creating mmultiple services in site using site object understabnd? ha
+
+        foreach ($ser as $s) {
+
+            $return[] = Service::create(
+                [
+                    '_website_id' => 2,
+                    'site_id' => $site->id,
+                    'name' => $s,
+                    'description' => 'For building security',
+                    'manager_id' => rand(1, 2),
+                    'active' => true,
+                ]
+            );
+
+        }
+        return $return;
+    }
+}

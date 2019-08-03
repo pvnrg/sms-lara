@@ -1,0 +1,79 @@
+{
+  "menus": [
+    {
+      "section": "User Manager",
+      "items": [
+        {
+          "title": "Users",
+          "url": "\/admin\/users",
+          "permission": "manage.user"
+        },
+        {
+          "title": "Roles",
+          "url": "\/admin\/roles",
+          "permission": "manage.roles"
+        },
+        {
+          "title": "Permissions",
+          "url": "\/admin\/permissions",
+          "permission": "manage.permissions"
+        },
+        {
+          "title": "Give Role Permissions",
+          "url": "\/admin\/give-role-permissions",
+          "permission": "manage.roles"
+        }
+      ]
+    },
+    {
+      "section": "Tools",
+      "items": [
+        {
+          "title": "Generator",
+          "url": "\/admin\/generator",
+          "permission": "manage.generator"
+        }
+      ]
+    },
+    {
+      "section": "Modules",
+      "items": [
+        {
+          "title": "Companies",
+          "url": "\/admin\/companies",
+          "permission": "manage.companies"
+        },
+        {
+          "title": "Sites",
+          "url": "\/admin\/sites",
+          "permission": "manage.sites"
+        },
+        {
+          "title": "Services",
+          "url": "\/admin\/services",
+          "permission": "manage.services"
+        },
+        {
+          "title": "Peoples",
+          "url": "\/admin\/peoples",
+          "permission": "manage.peoples"
+        },
+        {
+          "title": "DropdownsTypes",
+          "url": "\/admin\/dropdowns-types",
+          "permission": "manage.dropdowns"
+        },
+        {
+          "title": "DropdownValues",
+          "url": "\/admin\/dropdown-values",
+          "permission": "manage.dropdownsValues"
+        },
+        {
+          "title": "Audit",
+          "url": "\/admin\/audit",
+          "permission": "manage.audit"
+        }
+      ]
+    }
+  ]
+}

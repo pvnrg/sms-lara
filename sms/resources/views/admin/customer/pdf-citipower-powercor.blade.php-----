@@ -1,0 +1,788 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="X-UA-Compatible" content="IE=8">
+<TITLE>Citipower Powercor</TITLE>
+<META name="generator" content="BCL easyConverter SDK 5.0.08">
+<STYLE type="text/css">
+
+body {margin-top: 0px;margin-left: 0px;}
+
+#page_1 {position:relative; overflow: hidden;margin: 9px 0px 65px 32px;padding: 0px;border: none;width: 762px;margin: 9px 0 5px 0;outline:1px solid #000;padding:0px 0;}
+#page_1 #id_1 {
+    border: none;
+    margin: 0px 0px 0px 6px;
+    padding: 0px;
+    border: none;
+    width: 756px;
+    overflow: hidden;
+}
+#page_1 #id_2 {border:none;margin: 11px 0px 0px 0px;padding: 0px;border:none;width: 762px;overflow: hidden;}
+#page_1 #id_2 #id_2_1 {float:left;border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 374px;overflow: hidden;}
+#page_1 #id_2 #id_2_2 {float:left;border:none;margin: 9px 0px 0px 0px;padding: 0px;border:none;width: 388px;overflow: hidden;}
+#page_1 #id_3 {border:none;margin: 17px 0px 20px 20px;padding: 0px;border:none;width: 722px;overflow: hidden;}
+
+/* #page_1 #p1dimg1 {position:absolute;top:0px;left:6px;z-index:-1;width:721px;height:750px;}*/
+#page_1 #p1dimg1 #p1img1 {width:721px;height:750px;}
+
+.page-1{margin:0px 0;}
+.page-2{margin:0px 0;}
+
+#page_2 {position:relative; overflow: hidden;margin: 65px 0px 65px 32px;padding: 0px;border: none;width: 762px;margin: 15px 0 65px 0;outline:1px solid #000;padding:20px 0;}
+
+#page_1 #p1dimg1 {
+    position: relative;
+    /* top: 0px; */
+    /* left: 6px; */
+    /* z-index: -1; */
+    /* width: 721px; */
+    /* height: 750px; */
+}
+#page_2 #p2dimg1 #p2img1 {width:71px;height:1px;}
+
+.dclr {clear:both;float:none;height:1px;margin:0px;padding:0px;overflow:hidden;}
+
+.ft0{font: bold 19px 'Arial';line-height: 22px;}
+.ft1{font: bold 12px 'Arial';color: #ff0000;line-height: 15px;}
+.ft2{font: bold 12px 'Arial';line-height: 15px;}
+.ft3{font: 1px 'Arial';line-height: 1px;}
+.ft4{font: bold 10px 'Arial';color: #ff0000;line-height: 10px;}
+.ft5{font: italic bold 10px 'Arial';color: #ff0000;line-height: 10px;}
+.ft6{font: 1px 'Arial';line-height: 4px;}
+.ft7{font: 1px 'Arial';line-height: 6px;}
+.ft8{font: bold 10px 'Arial';color: #ff0000;line-height: 12px;}
+.ft9{font: italic bold 10px 'Arial';color: #ff0000;line-height: 11px;}
+.ft10{font: 12px 'Arial';line-height: 15px;}
+.ft11{font: bold 13px 'Arial';color: #ff0000;line-height: 16px;}
+.ft12 {
+    font: italic bold 13px 'Arial';
+    color: #ff0000;
+    line-height: 16px;
+    padding: 2px 0;
+}
+.ft13{font: 1px 'Arial';line-height: 5px;}
+.ft14{font: 10px 'Arial';line-height: 13px;}
+.ft15{font: bold 13px 'Arial';line-height: 16px;}
+.ft16{font: 15px 'Calibri';line-height: 18px;}
+.ft17{font: 14px 'Calibri';line-height: 17px;}
+.ft18{font: bold 11px 'Arial';line-height: 14px;}
+.ft19{font: 11px 'Arial';line-height: 14px;}
+.ft20{font: 1px 'Arial';line-height: 13px;}
+.ft21{font: 1px 'Arial';line-height: 7px;}
+.ft22{font: 1px 'Arial';line-height: 8px;}
+.ft23{font: 10px 'Times New Roman';line-height: 11px;}
+.ft24{font: 10px 'Arial';margin-left: 20px;line-height: 11px;}
+.ft25{font: italic 10px 'Arial';line-height: 11px;}
+.ft26{font: 10px 'Arial';line-height: 11px;}
+.ft27{font: 10px 'Times New Roman';line-height: 12px;}
+.ft28{font: 10px 'Arial';margin-left: 20px;line-height: 12px;}
+.ft29{font: 10px 'Arial';line-height: 12px;}
+.ft30{font: 10px 'Arial';margin-left: 20px;line-height: 13px;}
+.ft31{font: 10px 'Arial';margin-left: 19px;line-height: 12px;}
+.ft32{font: 10px 'Arial';margin-left: 19px;line-height: 13px;}
+.ft33{font: 1px 'Arial';line-height: 12px;}
+.ft34{font: 9px 'Arial';line-height: 12px;}
+.ft35{font: 1px 'Arial';line-height: 3px;}
+
+.p0{text-align: left;padding-left: 152px;margin-top: 0px;margin-bottom: 0px;}
+.p1{text-align: left;padding-left: 9px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p2{text-align: left;padding-left: 3px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p3{text-align: left;padding-left: 7px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p4{text-align: left;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;margin-left:0px;}
+.p5{text-align: left;padding-left: 8px;margin-top: 6px;margin-bottom: 0px;}
+.p6 {
+    text-align: left;
+    padding-left: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.p7{text-align: left;padding-left: 8px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p8{text-align: left;padding-left: 6px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p9{text-align: left;padding-left: 25px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p10{text-align: left;padding-left: 29px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p11{text-align: left;padding-left: 1px;margin-top: 6px;margin-bottom: 0px;}
+.p12{text-align: left;padding-left: 2px;margin-top: 5px;margin-bottom: 0px;}
+.p13{text-align: left;padding-left: 13px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p14{text-align: left;padding-left: 12px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p15{text-align: left;padding-left: 14px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p16{text-align: left;padding-left: 1px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p17{text-align: left;padding-left: 55px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p18{text-align: left;padding-left: 57px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p19{text-align: left;padding-left: 31px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p20{text-align: left;padding-left: 2px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p21{text-align: left;padding-left: 26px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p22{text-align: left;padding-left: 4px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p23{text-align: left;padding-left: 23px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p24{text-align: left;padding-left: 33px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p25{text-align: left;margin-top: 0px;margin-bottom: 10px;margin-left:10px;}
+.p26{text-align: left;padding-left: 40px;padding-right: 35px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p27{text-align: left;padding-left: 40px;padding-right: 39px;margin-top: 9px;margin-bottom: 0px;text-indent: -24px;}
+.p28{text-align: left;padding-left: 40px;padding-right: 37px;margin-top: 1px;margin-bottom: 0px;text-indent: -24px;}
+.p29{text-align: left;padding-left: 40px;padding-right: 35px;margin-top: 2px;margin-bottom: 0px;text-indent: -24px;}
+.p30{text-align: justify;padding-left: 24px;padding-right: 41px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p31{text-align: left;margin-top: 3px;margin-bottom: 0px;}
+.p32{text-align: left;padding-left: 24px;padding-right: 39px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p33{text-align: left;padding-left: 24px;padding-right: 49px;margin-top: 2px;margin-bottom: 0px;text-indent: -24px;}
+.p34{text-align: right;padding-right: 84px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p35{text-align: left;padding-left: 8px;margin-top: 0px;margin-bottom: 0px;}
+.p36{text-align: left;padding-left: 8px;margin-top: 27px;margin-bottom: 0px;}
+.p37{text-align: left;padding-left: 8px;padding-right: 105px;margin-top: 20px;margin-bottom: 0px;}
+.p38{text-align: left;padding-left: 8px;margin-top: 3px;margin-bottom: 0px;}
+.p39{text-align: left;padding-left: 32px;padding-right: 46px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p40{text-align: justify;padding-left: 32px;padding-right: 46px;margin-top: 2px;margin-bottom: 0px;text-indent: -24px;}
+.p41{text-align: left;padding-left: 0px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p42{text-align: justify;padding-left: 8px;padding-right: 57px;margin-top: 30px;margin-bottom: 0px;}
+.p43{text-align: right;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+
+.td0{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 133px;vertical-align: bottom;}
+.td1{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 106px;vertical-align: bottom;}
+.td2{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 112px;vertical-align: bottom;}
+.td3{border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 367px;vertical-align: bottom;}
+.td4{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 133px;vertical-align: bottom;}
+.td5{padding: 0px;margin: 0px;width: 367px;vertical-align: bottom;}
+.td6{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 112px;vertical-align: bottom;}
+.td7{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 133px;vertical-align: bottom;}
+.td8{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 106px;vertical-align: bottom;}
+.td9{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 106px;vertical-align: bottom;}
+.td10{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 112px;vertical-align: bottom;}
+.td11{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 367px;vertical-align: bottom;}
+.td12{border-left: #000000 1px solid;border-right: #000000 1px solid;border-top: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 247px;vertical-align: bottom;}
+.td13{border-top: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 77px;vertical-align: bottom;}
+.td14{border-top: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 72px;vertical-align: bottom;}
+.td15{border-right: #000000 1px solid;border-top: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 59px;vertical-align: bottom;}
+.td16{border-right: #000000 1px solid;border-top: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 150px;vertical-align: bottom;}
+.td17{border-top: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 29px;vertical-align: bottom;}
+.td18{border-right: #000000 1px solid;border-top: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 83px;vertical-align: bottom;}
+.td19{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 247px;vertical-align: bottom;}
+.td20{padding: 0px;margin: 0px;width: 77px;vertical-align: bottom;}
+.td21{padding: 0px;margin: 0px;width: 72px;vertical-align: bottom;}
+.td22{padding: 0px;margin: 0px;width: 60px;vertical-align: bottom;}
+.td23{padding: 0px;margin: 0px;width: 120px;vertical-align: bottom;}
+.td24{padding: 0px;margin: 0px;width: 31px;vertical-align: bottom;}
+.td25{padding: 0px;margin: 0px;width: 29px;vertical-align: bottom;}
+.td26{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 83px;vertical-align: bottom;}
+.td27{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 247px;vertical-align: bottom;}
+.td28{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 77px;vertical-align: bottom;}
+.td29{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 72px;vertical-align: bottom;}
+.td30{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 180px;vertical-align: bottom;}
+.td31{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 31px;vertical-align: bottom;}
+.td32{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 29px;vertical-align: bottom;}
+.td33{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 83px;vertical-align: bottom;}
+.td34{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 148px;vertical-align: bottom;}
+.td35{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 179px;vertical-align: bottom;}
+.td36{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 143px;vertical-align: bottom;}
+.td37{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 179px;vertical-align: bottom;}
+.td38{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 71px;vertical-align: bottom;}
+.td39{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 71px;vertical-align: bottom;}
+.td40{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 76px;vertical-align: bottom;}
+.td41{padding: 0px;margin: 0px;width: 283px;vertical-align: bottom;}
+.td42{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 28px;vertical-align: bottom;}
+.td43{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 76px;vertical-align: bottom;}
+.td44{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 60px;vertical-align: bottom;}
+.td45{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 120px;vertical-align: bottom;}
+.td46{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 28px;vertical-align: bottom;}
+.td47{padding: 0px;margin: 0px;width: 95px;vertical-align: bottom;}
+.td48{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 204px;vertical-align: bottom;}
+.td49{padding: 0px;margin: 0px;width: 180px;vertical-align: bottom;}
+.td50{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 235px;vertical-align: bottom;}
+.td51{padding: 0px;margin: 0px;width: 119px;vertical-align: bottom;}
+.td52{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 129px;vertical-align: bottom;}
+.td53{padding: 0px;margin: 0px;width: 45px;vertical-align: bottom;}
+.td54{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 241px;vertical-align: bottom;}
+.td55{border-left: #000000 1px solid;border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 84px;vertical-align: bottom;}
+.td56{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 547px;vertical-align: bottom;}
+.td57{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 84px;vertical-align: bottom;}
+.td58{padding: 0px;margin: 0px;width: 199px;vertical-align: bottom;}
+.td59{padding: 0px;margin: 0px;width: 158px;vertical-align: bottom;}
+.td60{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 190px;vertical-align: bottom;}
+.td61{padding: 0px;margin: 0px;width: 68px;vertical-align: bottom;}
+.td62{padding: 0px;margin: 0px;width: 131px;vertical-align: bottom;}
+.td63{padding: 0px;margin: 0px;width: 145px;vertical-align: bottom;}
+.td64{padding: 0px;margin: 0px;width: 139px;vertical-align: bottom;}
+.td65{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 263px;vertical-align: bottom;}
+.td66{padding: 0px;margin: 0px;width: 54px;vertical-align: bottom;}
+.td67{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 348px;vertical-align: bottom;}
+.td68{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 84px;vertical-align: bottom;}
+.td69{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 145px;vertical-align: bottom;}
+.td70{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 54px;vertical-align: bottom;}
+.td71{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 158px;vertical-align: bottom;}
+.td72{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 12px;vertical-align: bottom;}
+.td73{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 178px;vertical-align: bottom;}
+.td74{padding: 0px;margin: 0px;width: 12px;vertical-align: bottom;}
+.td75{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 178px;vertical-align: bottom;}
+.td76{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 85px;vertical-align: bottom;}
+.td77{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 73px;vertical-align: bottom;}
+.td78{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 53px;vertical-align: bottom;}
+.td79{padding: 0px;margin: 0px;width: 85px;vertical-align: bottom;}
+.td80{padding: 0px;margin: 0px;width: 73px;vertical-align: bottom;}
+.td81{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 11px;vertical-align: bottom;}
+.td82{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 68px;vertical-align: bottom;}
+.td83{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 53px;vertical-align: bottom;}
+.td84{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 11px;vertical-align: bottom;}
+.td85{padding: 0px;margin: 0px;width: 80px;vertical-align: bottom;}
+.td86{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 214px;vertical-align: bottom;}
+.td87{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 50px;vertical-align: bottom;}
+.td88{padding: 0px;margin: 0px;width: 114px;vertical-align: bottom;}
+.td89{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 7px;vertical-align: bottom;}
+.td90{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 252px;vertical-align: bottom;}
+.td91{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 5px;vertical-align: bottom;}
+.td92{padding: 0px;margin: 0px;width: 294px;vertical-align: bottom;}
+.td93{border-bottom: #000000 0px solid;padding: 0px;margin: 0px;width: 44px;vertical-align: bottom;}
+.td94{padding: 0px;margin: 0px;width: 5px;vertical-align: bottom;}
+.td95{padding: 0px;margin: 0px;width: 171px;vertical-align: bottom;}
+.td96{padding: 0px;margin: 0px;width: 252px;vertical-align: bottom;}
+.td97{border-left: #000000 1px solid;border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 120px;vertical-align: bottom;}
+.td98{border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 228px;vertical-align: bottom;}
+.td99{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 59px;vertical-align: bottom;}
+.td100{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 131px;vertical-align: bottom;}
+.td101{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 155px;vertical-align: bottom;}
+.td102{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 120px;vertical-align: bottom;}
+.td103{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 228px;vertical-align: bottom;}
+.td104{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 59px;vertical-align: bottom;}
+.td105{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 131px;vertical-align: bottom;}
+.td106{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 155px;vertical-align: bottom;}
+.td107{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 120px;vertical-align: bottom;}
+.td108{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 227px;vertical-align: bottom;}
+.td109{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 107px;vertical-align: bottom;}
+.td110{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 239px;vertical-align: bottom;}
+.td111{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 227px;vertical-align: bottom;}
+.td112{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 47px;vertical-align: bottom;}
+.td113{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 239px;vertical-align: bottom;}
+.td114{padding: 0px;margin: 0px;width: 228px;vertical-align: bottom;}
+.td115{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 59px;vertical-align: bottom;}
+.td116{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 287px;vertical-align: bottom;}
+.td117{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 48px;vertical-align: bottom;}
+.td118{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 84px;vertical-align: bottom;}
+.td119{padding: 0px;margin: 0px;width: 106px;vertical-align: bottom;}
+.td120{padding: 0px;margin: 0px;width: 167px;vertical-align: bottom;}
+.td121{padding: 0px;margin: 0px;width: 234px;vertical-align: bottom;}
+.td122{padding: 0px;margin: 0px;width: 167px;vertical-align: bottom;}
+.td123{padding: 0px;margin: 0px;width: 201px;vertical-align: bottom;}
+.td124{padding: 0px;margin: 0px;width: 33px;vertical-align: bottom;}
+.td125{padding: 0px;margin: 0px;width: 170px;vertical-align: bottom;}
+.td126{padding: 0px;margin: 0px;width: 169px;vertical-align: bottom;}
+
+.tr0{height: 18px;}
+.tr1{height: 28px;}
+.tr2{height: 22px;}
+.tr3{height: 10px;}
+.tr4{height: 4px;}
+.tr5{height: 16px;}
+.tr6{height: 6px;}
+.tr7{height: 14px;}
+.tr8{height: 21px;}
+.tr9{height: 5px;}
+.tr10{height: 17px;}
+.tr11{height: 31px;}
+.tr12{height: 24px;}
+.tr13{height: 23px;}
+.tr14{height: 20px;}
+.tr15{height: 19px;}
+.tr16{height: 30px;}
+.tr17{height: 29px;}
+.tr18{height: 27px;}
+.tr19{height: 26px;}
+.tr20{height: 33px;}
+.tr21{height: 13px;}
+.tr22{height: 7px;}
+.tr23{height: 8px;}
+.tr24{height: 39px;}
+.tr25{height: 44px;}
+.tr26{height: 43px;}
+.tr27{height: 12px;}
+.tr28{height: 25px;}
+.tr29{height: 3px;}
+.tr30{height: 1px;}
+
+.t0{width: 721px;margin-top: 2px;font: bold 10px 'Arial';color: #ff0000;border-left: 1px solid #000;border-right: 1px solid #000;}
+.t1{width: 721px;margin-top: 6px;font: bold 12px 'Arial';}
+.t2{width: 714px;margin-left: 2px;margin-top: 11px;font: bold 12px 'Arial';}
+.t3 {
+    width: 725px;
+    margin-left: 3px;
+    font: 15px 'Calibri';
+    border: 1px solid;
+    /* border-bottom: 1px solid; */
+}
+.t4{width: 722px;font: 11px 'Arial';}
+.t5{width: 697px;margin-left: 6px;margin-top: 3px;font: bold 12px 'Arial';}
+.t6{width: 638px;margin-left: 8px;margin-top: 21px;font: bold 13px 'Arial';}
+.t7{width: 633px;margin-top: 499px;font: 11px 'Arial';}
+.t8{width: 722px;font: 14px 'Arial';}
+
+.text-center{text-align:center;margin:0 0;}
+.img-absolute {position:relative;width: 30%;float:right;padding:10px 0 0 0;}
+input{background-color:#f5f9c7;}
+.checkbox-1{background-color:#fff;float: right;}
+
+.input-1{
+	width: 50px;
+	display: inline-block;
+	float: left;
+	height: 10px;
+	margin-bottom: 2px;
+	outline: none;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #000;
+	background-color:#fff;
+	font-size:12px;
+}
+.input-2{
+	width: 70px;
+	display: inline-block;
+	float: left;
+	height: 10px;
+	margin-bottom: 2px;
+	outline: none;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #000;
+	background-color:#fff;
+	font-size:12px;
+}
+.input-3{
+	width: 100px;
+	display: inline-block;
+	float: left;
+	height: 10px;
+	margin-bottom: 2px;
+	outline: none;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #000;
+	background-color:#fff;
+	font-size:12px;
+}
+
+</STYLE>
+</HEAD>
+
+<BODY>
+<div class="text-center">
+<section class="page-1">
+<DIV id="page_1">
+<DIV id="p1dimg1">
+<img src="{{ asset('pdf-test-image/citypower.png') }}" class="img-absolute"></DIV>
+
+<DIV class="dclr"></DIV>
+<DIV id="id_1">
+<P class="p0 ft0">Photovoltaic (Solar) Generator Connection Form</P>
+<TABLE cellpadding=0 cellspacing=0 class="t0">
+<TR>
+	<TD class="tr0 td0"><P class="p1 ft1">Distribution Network</P></TD>
+	
+	<TD rowspan=3 class="tr1 td1"><P class="p2 ft2">CitiPower Pty  @if($customer->electrical_distributer == "Citipower")  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif </P></TD>
+	<TD rowspan=2 class="tr2 td2"><P class="p3 ft2">Powercor  @if($customer->electrical_distributer == "Powercor") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif </P></TD>
+	<TD class="tr0 td3"><P class="p4 ft3">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD rowspan=2 class="tr3 td4"><P class="p1 ft5"><SPAN class="ft4">(</SPAN>Please tick applicable</P></TD>
+	<TD class="tr4 td5"><P class="p4 ft6">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD rowspan=2 class="tr5 td6"><P class="p3 ft2">Australia Ltd</P></TD>
+	<TD class="tr6 td5"><P class="p4 ft7">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD rowspan=2 class="tr7 td7"><P class="p1 ft9">Distributor<SPAN class="ft8">)</SPAN></P></TD>
+	<TD class="tr3 td8"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr3 td5"><P class="p4 ft3">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr4 td9"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td10"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td11"><P class="p4 ft6">&nbsp;</P></TD>
+</TR>
+</TABLE>
+<P class="p5 ft10"><NOBR>Pre-approval</NOBR> is required for all inverter sizes. This form is to be used after <NOBR>pre-approval</NOBR> is obtained.</P>
+<P class="p6 ft12"><SPAN class="ft11">SECTION 1: INSTALLATION DETAILS (</SPAN>to be completed and signed by the installer<SPAN class="ft11">)</SPAN></P>
+<TABLE cellpadding=0 cellspacing=0 class="t1">
+<TR>
+	<TD class="tr8 td12"><P class="p7 ft2">Installer Company Name</P></TD>
+	<TD class="tr8 td13"><P class="p4 ft3">&nbsp;</P>{{ $companyDetails->Company_Name }}</TD>
+	<TD class="tr8 td14"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr8 td15"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=2 class="tr8 td16"><P class="p8 ft2">Installer Phone Number</P></TD>
+	<TD class="tr8 td17"><P class="p4 ft3">&nbsp;</P>{{ $companyDetails->Phone}}</TD>
+	<TD class="tr8 td18"><P class="p4 ft3">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr8 td19"><P class="p7 ft2">Installer Company Address</P></TD>
+	<TD class="tr8 td20" colspan="6" style="text-align:left; "><P class="p4 ft3">&nbsp;</P> {!! $companyDetails->Address !!} </TD>
+	<!--TD class="tr8 td21"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr8 td22"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr8 td23"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr8 td24"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr8 td25"><P class="p4 ft3">&nbsp;</P></TD-->
+	<TD class="tr8 td26"><P class="p4 ft3">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr9 td27" style="border-bottom:1px solid #000;"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td28" style="border-bottom:1px solid #000;"><P class="p4 ft13" style="border-bottom:1px solid #000;">&nbsp;</P></TD>
+	<TD class="tr9 td29"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD colspan=2 class="tr9 td30"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td31"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td32"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td33"><P class="p4 ft13">&nbsp;</P></TD>
+</TR>
+@php $solar_inverter_rating = ''; $inverter_brand = ''; $inverter_model = ''; $battery_count = 0 ; $battery_type = ''; @endphp 
+@foreach($products as $product)
+	@if($product->category->name == "Solar Inverter")
+		@php	$solar_inverter_rating = $product->rated_power_output / 1000 ; 
+				$inverter_brand = $product->brand->name ;  
+				$inverter_model = $product->model ;
+		@endphp
+	@endif
+	@if($product->category->name == "Battery")
+		@php	$battery_count = $battery_count + 1;
+				$battery_type =  $product->battery_type ;
+		@endphp
+	@endif
+@endforeach
+
+<TR>
+	<TD class="tr10 td19"><P class="p7 ft2">Total Installed Capacity</P></TD>
+	<TD colspan=2 rowspan=2 class="tr11 td34"><P class="p8 ft10"><input type="text" class="input-3" value="{{ $job->solar_capacity_installed / 1000 }}"><SPAN class="ft2">kW</SPAN></P></TD>
+	<TD colspan=2 class="tr10 td35"><P class="p8 ft2">Solar Inverter Power Rating</P></TD>
+	<TD colspan=3 rowspan=2 class="tr11 td36"><P class="p2 ft10">
+		<input type="text" class="input-3" value="{{ $solar_inverter_rating }}" /><SPAN class="ft2">kW</SPAN></P></TD>
+</TR>
+<TR>
+	<TD class="tr7 td27"><P class="p7 ft14">(Total rating of all solar panels)</P></TD>
+	<TD colspan=2 class="tr7 td37"><P class="p8 ft14">(1 hour or continuous rating)</P></TD>
+</TR>
+<TR>
+	<TD class="tr12 td19"><P class="p7 ft2">Solar Inverter Manufacturer</P></TD>
+	<TD class="tr12 td20"><P class="p4 ft3">&nbsp;</P>{{ $inverter_brand }}</TD>
+	<TD class="tr12 td38"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=2 class="tr12 td35"><P class="p1 ft2">Solar Inverter Model Name</P></TD>
+	<TD class="tr12 td24"><P class="p4 ft3">&nbsp;</P> {{ $inverter_model }} </TD>
+	<TD class="tr12 td25"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr12 td26"><P class="p4 ft3">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr9 td27" style="border-bottom:1px solid #000;"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td28" style="border-bottom:1px solid #000;"><P class="p4 ft13" style="border-bottom:1px solid #000;">&nbsp;</P></TD>
+	<TD class="tr9 td39"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD colspan=2 class="tr9 td37"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td31"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td32"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td33"><P class="p4 ft13">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr13 td19"><P class="p7 ft2">Operating Manual Provided to Customer</P></TD>
+	<TD class="tr13 td40"><P class="p9 ft10"> 
+		{{-- @if($job->manual_to_customer == "Yes") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  --}}
+		<img src="{{ asset('assets/images/checkbox.png') }}"/>
+		 Yes</P></TD>
+	<TD colspan=4 class="tr13 td41"><P class="p10 ft2">Instructed Customer in Operation of System</P></TD>
+	<TD class="tr13 td42"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr13 td26"><P class="p9 ft10"> 
+		{{-- @if($job->instructed_customer == "Yes") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  --}}
+		<img src="{{ asset('assets/images/checkbox.png') }}"/>
+		 Yes</P></TD>
+</TR>
+<TR>
+	<TD class="tr4 td27"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td43"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td29"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td44"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td45"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td31"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td46"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td33"><P class="p4 ft6">&nbsp;</P></TD>
+</TR>
+</TABLE>
+<P class="p11 ft2">By signing this form, you acknowledge and represent the information provided is true and correct.</P>
+<TABLE cellpadding=0 cellspacing=0 class="t2">
+
+<TR>
+	<TD class="tr14 td47"><P class="p4 ft2" style="font-size:14px;">Installer Name:</P></TD>
+	<td colspan=2><input type="text" class="input-3" value="{{ $installer->name }}"/></td>
+	<TD class="tr14 td49"><P class="p3 ft15" style="font-size:14px;">Installer Accreditation No*.</P></TD>
+	<td colspan=2><input type="text" class="input-3" value="{{ $installer->accredition_number }}"/></td>
+	
+</TR>	
+<TR>
+	<TD class="tr16 td51"><P class="p4 ft2" style="font-size:14px;">Installer Signature:</P></TD>
+	<td colspan=2><input type="text" class="input-3" style="padding:10px 0;" />
+	@if(isset($installer->image)) <img src="{{ asset('/user/'.$installer->image) }}" width="20px" height="20px" />@endif</td>
+	<TD class="tr16 td53"><P class="p4 ft15" style="text-align:right;font-size:14px;">Date:</P></TD>
+	<TD colspan=2 class="tr17 td54"><input type="text" class="input-3" value="{{ $job->installation_date }}"/></TD>
+</TR>
+</TABLE>
+<P class="p12 ft12"><SPAN class="ft11">SECTION 2: INSTALLATION COMPLIANCE </SPAN>(to be completed and signed by the Registered Electrical Contractor)</P>
+<TABLE cellpadding=0 cellspacing=0 class="t3">
+<TR>
+	<TD class="tr2 td55"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=7 class="tr2 td56"><P class="p3 ft16">Installed capacity per phase (mark N/A for phases not available):</P></TD>
+</TR>
+<TR>
+	<TD class="tr14 td57"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=3 class="tr14 td58"><P class="p13 ft19"><SPAN class="ft17">Existing:</SPAN>Phase A:<span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;"> &nbsp;<!-- enter here text --> </span><SPAN class="ft18">kW</SPAN></P></TD>
+	<TD colspan=2 class="tr14 td59"><P class="p14 ft10">Phase B:<span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;"> &nbsp;<!-- enter here text --> </span><SPAN class="ft2">kW</SPAN></P></TD>
+	<TD colspan=2 class="tr14 td60"><P class="p4 ft10">Phase C:<span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;"> &nbsp;<!-- enter here text --> </span><SPAN class="ft2">kW</SPAN></P></TD>
+</TR>
+<TR>
+	<TD class="tr13 td57"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr13 td61"><P class="p13 ft16">New:</P></TD>
+	<TD colspan=2 class="tr13 td62"><P class="p4 ft19">Phase A: <span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;"> &nbsp;
+		{{-- {{ $job->solar_capacity_installed/1000  }} --}}
+		{{ $solar_inverter_rating }}
+	</span><SPAN class="ft18">kW</SPAN></P></TD>
+	<TD colspan=2 class="tr13 td59"><P class="p15 ft10">Phase B: <span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;"> &nbsp;N / A  </span><SPAN class="ft2">kW</SPAN></P></TD>
+	<TD colspan=2 class="tr13 td60"><P class="p16 ft10">Phase C:<span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;"> &nbsp;N / A  </span><SPAN class="ft2">kW</SPAN></P></TD>
+</TR>
+<TR>
+	<TD class="tr12 td57"><P class="p7 ft2">Inverter</P></TD>
+	<TD class="tr12 td61"><P class="p13 ft16">Total:</P></TD>
+	<TD colspan=2 class="tr12 td62"><P class="p4 ft19">Phase A:<span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;"> &nbsp;
+		{{-- {{ $job->solar_capacity_installed/1000 }}  --}}
+		{{ $solar_inverter_rating }}
+	</span><SPAN class="ft18">kW</SPAN></P></TD>
+	<TD colspan=2 class="tr12 td59"><P class="p15 ft10">Phase B:<span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;"> &nbsp;<!-- enter here text --> </span><SPAN class="ft2">kW</SPAN></P></TD>
+	<TD colspan=2 class="tr12 td60"><P class="p16 ft10">Phase C:<span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;"> &nbsp;<!-- enter here text --> </span><SPAN class="ft2">kW</SPAN></P></TD>
+</TR>
+<TR>
+	<TD class="tr18 td57"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=2 class="tr18 td63"><P class="p3 ft16">Number of phases:</P></TD>
+	<TD colspan=2 class="tr18 td64"><P class="p16 ft16">  @if($job->no_of_phases == 1 ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  Single phase 230V</P></TD>
+	<TD colspan=3 class="tr18 td65"><P class="p17 ft16"> @if($job->no_of_phases == 3 ) <img src="{{ asset('assets/images/checkbox.png') }}"/>  @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif   Three phase 400V</P></TD>
+</TR>
+<TR>
+	<TD class="tr19 td57"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr19 td61"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr19 td20"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=2 class="tr19 td64"><P class="p4 ft16">  @if($job->no_of_phases == 2 ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif   Two phase 230/400V</P></TD>
+	{{-- <TD colspan=3 class="tr19 td65"><P class="p18 ft16"> @if($job->no_of_phases == 2 ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/>  @endif   Two phase 230V/460V</P></TD> --}}
+</TR>
+<TR>
+	<TD class="tr19 td57"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=2 class="tr19 td63"><P class="p3 ft16">Export Limited: @if($job->export_limit == "Yes") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/>  @endif  Yes</P></TD>
+	<TD class="tr19 td66"><P class="p19 ft16">@if($job->export_limit != "Yes") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  No</P></TD>
+	<TD colspan=4 class="tr19 td67"><P class="p15 ft16">Export Limit: <SPAN class="ft10"></SPAN><SPAN class="ft2"><span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;">&nbsp;{{ $job->export_limit_value }}</SPAN>kW</P>  </TD>
+</TR>
+<TR>
+	<TD class="tr9 td68"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD colspan=2 class="tr9 td69"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td70"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD colspan=2 class="tr9 td71"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td72"><P class="p4 ft13">&nbsp;</P></TD>
+	<TD class="tr9 td73"><P class="p4 ft13">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD rowspan=2 class="tr20 td57"><P class="p7 ft2">Load</P></TD>
+	<TD colspan=2 class="tr14 td63"><P class="p3 ft16">Number of phases</P></TD>
+	<TD class="tr14 td66"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=2 class="tr14 td59"><P class="p20 ft16"> @if($job->no_of_phases == 1 ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  Single phase 230V</P></TD>
+	<TD class="tr14 td74"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr14 td75"><P class="p21 ft16"> @if($job->no_of_phases == 3 ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  Three phase 400V</P></TD>
+</TR>
+<TR>
+	<TD colspan=3 rowspan=2 class="tr14 td58"><P class="p3 ft16">of applicant’s connection:</P></TD>
+	<TD colspan=2 rowspan=2 class="tr14 td59"><P class="p22 ft16">@if($job->no_of_phases == 2 ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif Two phase 230/400V</P></TD>
+	<TD class="tr21 td74"><P class="p4 ft20">&nbsp;</P></TD>
+	{{-- <TD rowspan=2 class="tr14 td75"><P class="p10 ft16"> @if($job->no_of_phases == 2 ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif Two phase 230V/460V</P></TD> --}}
+</TR>
+<TR>
+	<TD class="tr22 td57"><P class="p4 ft21">&nbsp;</P></TD>
+	<TD class="tr22 td74"><P class="p4 ft21">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr23 td68"><P class="p4 ft22">&nbsp;</P></TD>
+	<TD colspan=2 class="tr23 td69"><P class="p4 ft22">&nbsp;</P></TD>
+	<TD class="tr23 td70"><P class="p4 ft22">&nbsp;</P></TD>
+	<TD class="tr23 td76"><P class="p4 ft22">&nbsp;</P></TD>
+	<TD class="tr23 td77"><P class="p4 ft22">&nbsp;</P></TD>
+	<TD class="tr23 td72"><P class="p4 ft22">&nbsp;</P></TD>
+	<TD class="tr23 td73"><P class="p4 ft22">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr14 td57"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=2 class="tr14 td63"><P class="p3 ft16">Battery Installed:</P></TD>
+	<TD class="tr14 td78"><P class="p2 ft16"> 
+		{{-- @if($job->battery_storage == "Yes") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif --}}
+
+		@if($battery_count != 0)  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif
+		 Yes</P></TD>
+	<TD class="tr14 td79"><P class="p23 ft16">Type:</P></TD>
+	<TD class="tr14 td80"><P class="p4 ft16"> 
+
+		@if($battery_type ==  "Lithium Ion") <img src="{{ asset('assets/images/checkbox.png') }}"/>  @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+		
+		 Lithium Ion</P></TD>
+	<TD class="tr14 td81"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr14 td75"><P class="p8 ft16">Capacity:</P></TD>
+</TR>
+<TR>
+	<TD class="tr8 td57"><P class="p7 ft2">Battery</P></TD>
+	<TD class="tr8 td61"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr8 td20"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr8 td78"><P class="p4 ft16"> 
+		{{-- @if($job->battery_storage == "No") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif --}}
+		@if($battery_count == 0)  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif
+		No</P></TD>
+	<TD class="tr8 td79"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr8 td80"><P class="p16 ft16"> 
+		@if($battery_type == "Lead Acid" ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif
+		
+		  Lead Acid</P></TD>
+	<TD class="tr8 td81"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD rowspan=2 class="tr24 td75"><P class="p24 ft10"><span style="border-bottom:1px solid #000;width:80px;overflow:0;padding: 10px 20px 0 00px;">&nbsp;&nbsp;&nbsp;<!-- enter here text --> </SPAN><SPAN class="ft16">kWhrs</SPAN></P></TD>
+</TR>
+<TR>
+	<TD class="tr0 td57"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr0 td61"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr0 td20"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr0 td78"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr0 td79"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr0 td80"><P class="p16 ft16"> 
+		 @if( ($battery_type != "Lead Acid"  || $battery_type !=  "Lithium Ion" ) && $battery_type != "") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif
+		
+		 Other</P></TD>
+	<TD class="tr0 td81"><P class="p4 ft3">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr4 td68"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td82"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td28"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td83"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td76"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td77"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td84"><P class="p4 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td73"><P class="p4 ft6">&nbsp;</P></TD>
+</TR>
+</TABLE>
+</DIV>
+<DIV id="id_2">
+<DIV id="id_2_1">
+<P class="p25 ft2">By signing this form, you acknowledge and represent that:</P>
+
+<P class="p26 ft26"><SPAN class="ft23">•</SPAN><SPAN class="ft24">the PV (Solar) Generator complies with the </SPAN><SPAN class="ft25">Electricity Safety Act 1998 </SPAN>(Vic.) and associated Safety Regulations, the Electricity Distribution Code, the Victorian Service & Installation Rules, AS/NZS3000 (Wiring Rules) and AS4777 (Grid Connection of Energy Systems via Inverters), and any other relevant Acts, regulations, standards or guidelines;</P>
+<P class="p27 ft29"><SPAN class="ft27">•</SPAN><SPAN class="ft28">The output balance and voltage rise requirements are compliant with AS4777.1 and AS4777.2.</SPAN></P>
+<P class="p28 ft29"><SPAN class="ft27">•</SPAN><SPAN class="ft28">the PV (Solar) Generator is connected to a dedicated circuit complete with lockable isolating switch at the switchboard;</SPAN></P>
+<P class="p29 ft14"><SPAN class="ft27">•</SPAN><SPAN class="ft30">the main switchboard, isolating fuse/switch/circuit breaker are labelled correctly;</SPAN></P>
+</DIV>
+<DIV id="id_2_2">
+<P class="p30 ft29"><SPAN class="ft27">•</SPAN><SPAN class="ft28">commissioning tests as specified in the Service & Installation Rules and </SPAN><NOBR>anti-islanding</NOBR> operation tests have been completed and passed. It is recommended that the solar inverter is left in the off position;</P>
+<P class="p31 ft14"><SPAN class="ft27">•</SPAN><SPAN class="ft30">alternative supply signage has been installed;</SPAN></P>
+<P class="p32 ft29"><SPAN class="ft27">•</SPAN><SPAN class="ft31">a Prescribed Certificate of Electrical Safety (CES) has been obtained; and copies of the Electrical Works Request and the CES will be sent to the generator owner’s Retailer; and</SPAN></P>
+<P class="p33 ft14"><SPAN class="ft27">•</SPAN><SPAN class="ft32">the generator owner has been advised that the PV (Solar) Generator should remain switched off until any metering upgrades are complete to avoid potential metering and billing issues.</SPAN></P>
+</DIV>
+</DIV>
+<DIV id="id_3">
+<TABLE cellpadding=0 cellspacing=0 class="t8"  width="100%" style="text-align:left; font-size:14px; ">
+<tr>
+	<td style="padding:10px 0; width:20%; text-align:left;">REC Name:</td>
+	<td style="width: 30%;"> <input type="text" class="input-3" style="width:90%;" value="{{ $companyDetails->REC_Name }}" /> </td>
+	<td style="padding:10px 0;width: 5%;">&nbsp;</td>
+	<td style="padding:10px 0;width: 20%;">REC Licence No*:</td>
+	<td style="width: 30%;"> <input type="text" class="input-3" style="width:90%;" value="{{ $companyDetails->REC_Number }}" /> </td>
+</tr>
+
+<tr>
+	<td style=" width:20%; text-align:left;">REC Signature:</td>
+	<td style="width: 30%;"> <input type="text" style="width:90%;" class="input-3"> </td>
+	<td style="padding:10px 0;width: 5%;">&nbsp;</td>
+	<td style=" width: 20%;">Date:</td>
+	<td style="width: 30%;"> <input type="text" style="width:90%;" class="input-3" value="{{ @ $job->completed_on }}"/> </td>
+</tr>
+
+<TR>
+	<TD class="tr11 td92"><P class="p4 ft19">Form No: <NOBR>{{ $form_no }}</NOBR></P></TD>
+	<TD class="tr11 td95"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr11 td96"><P class="p34 ft19">{{ @ $job->completed_on }}</P></TD>
+	<TD class="tr11 td94"><P class="p4 ft19">Page 1 of 2</P></TD>
+</TR>
+</TABLE>
+
+</DIV>
+</DIV>
+</section>
+<section class="page-2">
+<DIV id="page_2">
+
+
+<P class="p35 ft12"><SPAN class="ft11">SECTION 3: GENERATOR OWNER DETAILS (</SPAN>to be completed and signed by the generator owner<SPAN class="ft11">)</SPAN></P>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="t5" style="text-align:left;">
+  
+  <tr>
+      <TD class="tr15 td97" style="border-bottom:1px solid #000;"><P class="p7 ft2">Customer Name*</P></TD>
+    	<TD class="tr15 td98" style="border-bottom:1px solid #000;"><P class="p4 ft3"></P>&nbsp;{{ $customer->first_name }} {{ $customer->last_name }}</TD>
+    	<TD class="tr15 td99" style="border-bottom:1px solid #000;"><P class="p4 ft3"></P>&nbsp;{{ $customer->business_name }} </TD>
+    	<TD class="tr15 td100" style="border-bottom:1px solid #000;"><P class="p8 ft2">Customer NMI*</P><P class="p8 ft34">(Refer to your electricity bill)</P></TD>
+    	<TD colspan="2" style="border-bottom:1px solid #000;"  class="tr15 td101"><P class="p4 ft3"></P>&nbsp;{{ $customer->nmi }}</TD>
+  </tr>
+<TR>
+	<TD class="tr8 td107" style="border-bottom:1px solid #000;"><P class="p7 ft2">Supply Address*</P></TD>
+	<TD  colspan=2 class="tr8 td108" style="border-bottom:1px solid #000;"><P class="p4 ft3"></P>&nbsp;{{ $customer->unit }} {{ $customer->street_number }} {{ $customer->street_name }} {{ $customer->suburb }}   {{ $customer->state }}  {{ $customer->post_code }}</TD>
+	<TD class="tr8 td109" style="border-bottom:1px solid #000;"><P class="p8 ft2">Mailing Address*</P></TD>
+	<TD colspan=2 class="tr8 td110" style="border-bottom:1px solid #000;"><P class="p4 ft3"></P>&nbsp;{{ $customer->unit }} {{ $customer->street_number }} {{ $customer->street_name }} {{ $customer->suburb }}   {{ $customer->state }}  {{ $customer->post_code }} </TD>
+</TR>
+<!--TR>
+	<TD class="tr28 td102"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr28 td111"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr28 td44"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr28 td112"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD colspan=2 class="tr28 td113"><P class="p4 ft3">&nbsp;</P></TD>
+</TR-->
+<TR>
+	<TD class="tr15 td107"><P class="p7 ft2">Phone Number*</P></TD>
+	<TD class="tr15 td115"><P class="p4 ft3"></P>&nbsp;{{ $customer->phone_mobile }}</TD>
+	<TD class="tr15 td114"><P class="p7 ft2">Business Hours:</P></TD>
+	<TD class="tr15 td115"><P class="p4 ft3">&nbsp;</P></TD>
+	<TD class="tr15 td116"><P class="p7 ft2">After Hours:</P></TD>
+	<TD class="tr15 td115"><P class="p4 ft3">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr29 td102"><P class="p4 ft35">&nbsp;</P></TD>
+	<TD class="tr29 td103"><P class="p4 ft35">&nbsp;</P></TD>
+	<TD class="tr29 td104"><P class="p4 ft35">&nbsp;</P></TD>
+	<TD class="tr29 td117"><P class="p4 ft35">&nbsp;</P></TD>
+	<TD class="tr29 td118"><P class="p4 ft35">&nbsp;</P></TD>
+	<TD class="tr29 td106"><P class="p4 ft35">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr2 td102"><P class="p7 ft2">Email Address*</P></TD>
+	<TD class="tr2 td103" colspan="4" style="text-align:left;"><P class="p4 ft3"></P>&nbsp;{{ $customer->email }}</TD>
+	<TD class="tr2 td106"><P class="p4 ft3">&nbsp;</P></TD>
+</TR>
+</TABLE>
+<P class="p36 ft15">CUSTOMER ACKNOWLEDGEMENT, INDEMNITY AND RELEASE</P>
+<P class="p37 ft2">By signing this form, you acknowledge and represent that you have read, understand and agree to comply with the connection obligations, and that you:</P>
+<P class="p38 ft14"><SPAN class="ft27">•</SPAN><SPAN class="ft30">are the owner of the PV (Solar) System listed under the Supply Address in section 3 above;</SPAN></P>
+<P class="p39 ft29"><SPAN class="ft27">•</SPAN><SPAN class="ft28">have received a Photovoltaic Embedded Generator operating manual from, and been instructed on the operation of the Photovoltaic Embedded Generator by, the Installation Company detailed in section 1;</SPAN></P>
+<P class="p39 ft29"><SPAN class="ft27">•</SPAN><SPAN class="ft28">accept that approval will only be granted for the Photovoltaic Embedded Generator detailed in this form, and that you must obtain further prior approval from your Distributor to alter your Photovoltaic Embedded Generator in any way;</SPAN></P>
+<P class="p40 ft14"><SPAN class="ft27">•</SPAN><SPAN class="ft30">release and indemnify and agree to keep indemnified your Distributor, its officers, employees and agents against all actions, proceedings, claims and demands whatsoever which may be brought, including any indirect or consequential loss or any other form of pure economic loss, made or prosecuted against them or any of them by any person in respect of the installation of your Photovoltaic Embedded Generator, particularly in relation to works completed by the Installation Company detailed in section 1 or the compliance certification provided by the Registered Electrical Contractor in section 2, or in respect of connection of your Photovoltaic Embedded Generator to the Victorian electricity grid.</SPAN></P>
+<TABLE cellpadding=0 cellspacing=0 class="t6">
+	<tr>
+		<td>Customer Name:</td>
+		<td> <input type="text" class="input-3" value="{{ $customer->first_name }} {{ $customer->last_name }}"> </td>
+		<td>Customer Signature:</td>
+		<td> <input type="text" class="input-3"> </td>
+		<td>Date:</td>
+		<td> <input type="text" class="input-3" value="{{ $job->installation_date }}" /> </td>
+	</tr>
+</TABLE>
+<P class="p42 ft14">PRIVACY STATEMENT: The personal information you provide in this form will be collected by your Distributor for the purpose of connecting your Photovoltaic Embedded Generator to the Victorian electricity grid. This information will be used and disclosed by your Distributor in accordance with its privacy processes. You can find more information on your Distributor’s privacy processes on their website.</P>
+<br>
+<br>
+<br>
+<TABLE cellpadding=0 cellspacing=0 class="t7">
+<TR>
+	<TD class="tr7 td92"><P class="p4 ft19">Form No: <NOBR>{{ $form_no }}</NOBR></P></TD>
+	<TD class="tr7 td125"><P class="p4 ft19"></P></TD>
+	<TD class="tr7 td125"><P class="p4 ft19">Page 2 of 2</P></TD>
+	<TD class="tr7 td126"><P class="p43 ft19">{{ @ $job->completed_on }}</P></TD>
+</TR>
+</TABLE>
+</DIV>
+</section>
+</div>
+</BODY>
+</HTML>

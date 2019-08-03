@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EWR Form</title>
+</head>
+<body style="font-family:'Arial Rounded MT Bold';">
+   
+    <table style="background:#fff;width:800px;padding:0px;">
+        <tr>
+           <td>
+                <table style="width:800px;padding:0 0 0px 0;">
+                    <tr>
+                        <td style="width:320px;margin:0;padding:5px;vertical-align:middle;border:1px solid #003f87;">
+                            <table>
+                                <tr>
+                                    <td style="width:120px;font-size:11px;padding:0 0 0px 0px;color:#000;line-height:20px;text-align:left;">
+                                        Retailer:
+                                    </td>
+                                    <td style="width:200px;font-size:11px;padding:0 0 0px 0px;color:#000;line-height:20px;text-align:left;">
+                                        <input type="text" style="width:200px;" value="{{  @ $customer->retailer->name }}" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:120px;font-size:11px;padding:0 0 0px 0px;color:#000;line-height:20px;text-align:left;">
+                                        Service Order:#
+                                    </td>
+                                    <td style="width:200px;font-size:11px;padding:0 0 0px 0px;color:#000;line-height:20px;text-align:left;">
+                                        <input type="text" style="width:200px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:120px;font-size:11px;padding:0 0 0px 0px;color:#000;line-height:20px;text-align:left;">
+                                        NMI:
+                                    </td>
+                                    <td style="width:200px;font-size:11px;padding:0 0 0px 0px;color:#000;line-height:20px;text-align:left;">
+                                        <input type="text" style="width:200px;" value="{{ $customer->nmi }}" />
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </td> 
+						<td style="width:400px;margin:0;vertical-align:bottom;"><img class="logo" src="{{ asset('assets/images/ewr.png') }}" style="width:480px;"></td> 
+					</tr>
+                </table>
+            <td>
+        </tr>
+	</table><!-- top row -  1 -->
+        
+	<table style="background:#fff;width:800px;padding:0px;">
+        <tr>
+			<td style="color:#003f87;font-size:13px;">
+				<b>Application for service – Electrical Works Request (EWR) for new and existing installations</b>
+            </td>
+		</tr>	
+    </table><!-- top row -  2 -->
+	
+	<table style="background:#fff;width:800px;padding:0px;">
+        <tr>
+			<td>
+				<table style="background:#fff;width:800px;padding:0px;">
+					<tr>
+						<td style="background:#fff;width:350px;padding:0px;font: 11px 'Arial Narrow';color: #c00000;">
+							Send completed form by email or mail to Retailer:
+                        </td>
+                        <td style="background:#fff;width:150px;padding:0px;font: 11px 'Arial Narrow';color: #c00000;">
+                            <input type="text" style="width:150px;" value="{{ @ $customer->retailer->email }}" />
+                        </td>
+                        <td style="background:#fff;width:150px;padding:0px;font: 11px 'Arial Narrow';color: #c00000;">
+							or Distributor:
+                        </td>
+                        <td style="background:#fff;width:150px;padding:0px;font: 11px 'Arial Narrow';color: #c00000;">
+                            <input type="text" style="width:150px;"  value="{{  $customer->electrical_distributor }}" />
+                        </td>
+                    </tr>
+				</table>		
+			
+            </td>
+		</tr>	
+    </table><!-- top row -  3 -->
+    
+    <table style="background:#fff;width:800px;padding:0px;">
+        <tr>
+			<td style="color:#000;font-size:11px;">
+				I acknowledge the requirements of the relevant Distribution Company have been adhered to and certify the electrical work complies
+                with the Victorian Service & Installation Rules and the Electricity Safety Act and Regulations. I also acknowledge the initial connection
+                will not be connected without a Prescribed Certificate of Electrical Safety and that I am responsible for any associated Distribution
+                Company charges unless the Retailer has accepted all charges.
+            </td>
+		</tr>	
+    </table><!-- top row -  4 -->
+    
+    <table style="background:#fff;width:800px;padding:0px;">
+        <tr>
+            <td style="font:bold 12px 'Arial';color: #003f87;">
+                Work site address 
+            </td>
+        </tr>    
+
+        <tr>
+			<td>
+				<table style="background:#fff;width:800px;padding:0px;">
+					<tr>
+						<td style="background:#fff;width:350px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+							Customer or Business Name:
+                        </td>
+                        <td style="background:#fff;width:150px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                            <input type="text" style="width:150px;" value="{{ $customer->first_name }} {{ $customer->last_name }}  {{ $customer->business_name }}" />
+                        </td>
+                        <td style="background:#fff;width:150px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+							Ph # / Mb #:
+                        </td>
+                        <td style="background:#fff;width:150px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                            <input type="text" style="width:150px;" value="{{ $customer->phone_home}} / {{ $customer->phone_mobile}}" />
+                        </td>
+                    </tr>
+				</table>		
+			
+            </td>
+		</tr>	
+    </table><!-- top row - 5 -->
+
+    <table style="background:#fff;width:800px;padding:0px;">
+        <tr>
+            <td style="background:#fff;width:100px;padding:0px;font:bold 12px 'Arial';color: #003f87;">
+                Site Type: 
+            </td>
+            
+            @foreach( array_slice(\config('setting.property_type'), 0, 9) as $key => $value)
+            <td style="background:#fff;width:70px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                {{ $key }}
+            </td>
+            <td style="background:#fff;width:30px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                 @if($value == $customer->property_type ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  
+                 {{-- style="width:30px;"   --}}
+            </td>
+            @endforeach
+
+            {{-- <td style="background:#fff;width:70px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                Factory
+            </td>
+            <td style="background:#fff;width:30px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <input type="checkbox" style="width:30px;"  />
+            </td>
+            <td style="background:#fff;width:70px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                Suite
+            </td>
+            <td style="background:#fff;width:30px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                    <input type="checkbox" style="width:30px;" />
+            </td>
+            <td style="background:#fff;width:70px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                    Tenancy 
+            </td>
+            <td style="background:#fff;width:30px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                    <input type="checkbox" style="width:30px;" />
+            </td>
+            <td style="background:#fff;width:70px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                    Shop 
+            </td>
+            <td style="background:#fff;width:30px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                    <input type="checkbox" style="width:30px;" />
+            </td>
+            <td style="background:#fff;width:100px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                    Other:
+            </td>
+            <td style="background:#fff;width:200px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <input type="text" style="width:200px;" placeholder="Residential/home" />
+            </td> --}}
+        </tr>
+    </table><!-- top row - 6 -->
+    
+    <table style="width:800px;margin:0px 0 0 0;padding:0px 0;background-color: #fff;">
+        <tr>
+            <td style="width:150px;vertical-align:top;font-size:11px;margin:0px 0 0 0;padding:0;">
+                <table>
+                    <tr style="text-align:left;">
+                        <td>
+                            <small style="font:normal 11px 'Arial';color: #003f87;">Unit / Floor / Shop</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" style="width:120px;" value="{{ $customer->unit }}" />
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td style="width:150px;vertical-align:top;font-size:11px;margin:0;padding:0;">
+                <table>
+                    <tr style="text-align:left;">
+                        <td>
+                            <small style="font:normal 11px 'Arial';color: #003f87;">Street number</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" style="width:120px;" value="{{ $customer->street_number }}" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width:500px;vertical-align:top;font-size:11px;margin:0;padding:0;">
+                <table>
+                    <tr style="text-align:left;">
+                        <td>
+                            <small style="font:normal 11px 'Arial';color: #003f87;">Street Name</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" style="width:500px;" value="{{ $customer->street_name }}"  />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+    </table><!-- top row - 7 -->
+
+    <table style="width:800px;margin:0px 0 0 0;padding:0px 0;background-color: #fff;">
+        <tr>
+            <td style="width:200px;vertical-align:top;font-size:11px;margin:0px 0 0 0;padding:0;">
+                <table>
+                    <tr style="text-align:left;">
+                        <td>
+                            <small style="font:normal 11px 'Arial';color: #003f87;">Lot</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" style="width:170px;" value="{{ $customer->lot }}" />
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td style="width:400px;vertical-align:top;font-size:11px;margin:0;padding:0;">
+                <table>
+                    <tr style="text-align:left;">
+                        <td>
+                            <small style="font:normal 11px 'Arial';color: #003f87;">Suburb</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" style="width:400px;"   value="{{ $customer->suburb }}" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width:200px;vertical-align:top;font-size:11px;margin:0;padding:0;">
+                <table>
+                    <tr style="text-align:left;">
+                        <td>
+                            <small style="font:normal 11px 'Arial';color: #003f87;">Existing meter number</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" style="width:200px;"  value="{{ $customer->meter_number }}" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+    </table><!-- top row - 8 -->
+
+    <table style="background:#fff;width:800px;padding:0px;">
+        <tr>
+            <td style="background:#fff;width:300px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                Has contact been made with Projects Group?
+            </td>
+            <td style="background:#fff;width:100px;text-align:right;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                Yes
+            </td>
+            <td style="background:#fff;width:10px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <input type="checkbox" style="width:10px;" />
+            </td>
+            <td style="background:#fff;width:50px;padding:0px;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                No
+            </td>
+            <td style="background:#fff;width:10px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <input type="checkbox" style="width:10px;" />
+            </td>
+           
+            <td style="background:#fff;width:190px;text-align:right;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                Project number
+            </td>
+            <td style="background:#fff;width:140px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <input type="text" style="width:140px;" />
+            </td>
+        </tr>
+    </table><!-- top row - 9 -->
+
+    <table style="background:#fff;width:800px;padding:0px;">
+        <tr>
+            <td style="background:#fff;width:350px;text-align:left;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                Name of person at Distributors Projects Group to contact
+            </td>
+            <td style="background:#fff;width:450px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <input type="text" style="width:450px;" />
+            </td>
+        </tr>
+    </table><!-- top row - 10 -->
+
+    <table style="background:#fff;width:800px;padding:0px;">
+        <tr>
+            <td style="background:#fff;width:800px;text-align:left;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <strong>Description of All Works <small>(including coincidental works taking place)</small></strong> <small>(PLEASE PRINT)</small>
+            </td>
+        </tr>
+    </table><!-- top row - 11 -->
+
+    <table style="background:#fff;width:800px;padding:0px;margin: 0;padding: 0px;border-spacing: 0px;">
+        <tr>
+            <td style="background:#fff;width:800px;text-align:left;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <input type="text" style="width:800px;height:100px;max-height:100px;padding: 10px 0px;">
+            </td>
+        </tr>
+    </table><!-- top row - 11 -->
+
+    <table style="background:#fff;width:800px;padding:0px;margin: 0;padding: 0px;border-spacing: 0px;">
+        <tr>
+            <td style="background:#fff;width:400px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <input type="text" style="width:450px;padding: 0px 0px;">
+            </td>    
+            <td style="background:#fff;width:100px;padding:0px;font:normal 11px 'Arial';color: #003f87;text-align:center;">
+                CES No
+            </td>
+            <td style="background:#fff;width:300px;padding:0px;font:normal 11px 'Arial';color: #003f87;">
+                <input type="text" style="width:300px;padding: 0px 0px;" value="{{ $company_details->CES_Number }}">
+            </td>    
+        </tr>
+    </table><!-- top row - 12 -->
+
+    <!-- Middle area 1 -->
+
+    <table style="background:#fff;width:800px;padding:0px 0 0 0;">
+        <tr>
+            <td style="background:#fff;width:800px;text-align:left;padding:0px;font:normal 12px 'Arial';color: #003f87;">
+                <strong>Work requirements</strong>
+            </td>
+        </tr>
+    </table><!-- middle row - 1 -->
+
+    <table style="width:800px;margin:0px 0 0 0;padding:0px 0;background-color: #fff;">
+        <tr>
+            <td style="width:150px;vertical-align:top;font-size:11px;margin:0px 0 0 0;">
+                <table style="padding:0px 5px 5px 5px;border:1px solid #003f87;">
+                    <tr style="text-align:left;">
+                        <td style="width:150px;font:bold 13px 'Arial';color: #003f87;">
+                            Premise type
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Commercial / Industrial
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Residential
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Unmetered Supply
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Builders Supply Pole (BSP)
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Builders Supply in the
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Permanent Position
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:150px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            <hr>
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td style="width:100px;padding:0px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Private Cables on Public Land
+                        </td>
+                        <td style="width:50px;padding:0px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            Y<input type="checkbox" style="width:10px;text-align:right;" />
+                            N<input type="checkbox" style="width:10px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:0px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Is EPV required?
+                        </td>
+                        <td style="width:50px;padding:0px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            Y<input type="checkbox" style="width:10px;text-align:right;" />
+                            N<input type="checkbox" style="width:10px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:0px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Is Traffic Control req?
+                        </td>
+                        <td style="width:50px;padding:0px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            Y<input type="checkbox" style="width:10px;text-align:right;" />
+                            N<input type="checkbox" style="width:10px;text-align:right;" />
+                        </td>
+                    </tr>
+                </table>
+            </td><!-- col first - 1 -->
+            <td style="width:140px;vertical-align:top;font-size:11px;margin:0px 0 0 0;">
+                <table style="padding:0px 0 10px 0;border:1px solid #003f87;">
+                    <tr style="text-align:left;">
+                        <td colspan="3" style="width:140px;font:bold 13px 'Arial';color: #003f87;">
+                        Connection type
+                        </td>
+                    </tr>
+
+                    @foreach( array_slice(\config('setting.connection_type'), 0, 4) as $key => $value)
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        {{ $key }}
+                        </td>
+                        <td colspan="2" style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            {{-- style="width:50px;text-align:right;"  --}}
+                            @if($value == $job->connection_type ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        </td>
+                    </tr>
+                    @endforeach
+
+                    {{-- <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        New
+                        </td>
+                        <td colspan="2" style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Alteration
+                        </td>
+                        <td colspan="2" style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Private Overhead
+                        </td>
+                        <td colspan="2" style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Embedded Network
+                        </td>
+                        <td colspan="2" style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            <input type="checkbox" style="width:50px;text-align:right;" />
+                        </td>
+                    </tr> --}}
+                    <tr>
+                        <td style="width:70px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Solar Panel
+                        </td>
+                        <td style="width:70px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            <input type="text" style="width:70px;text-align:right;" />
+                        </td>
+                        <td style="width:10px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            kW
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:70px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Inverter
+                        </td>
+                        <td style="width:70px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            <input type="text" style="width:70px;text-align:right;" />
+                        </td>
+                        <td style="width:10px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            kW
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="width:150px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Alternative supply        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="width:150px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            <input type="text" style="width:150px;"  value="{{ $job->alternative_supply }}" />
+                        </td>            
+                    </tr>    
+                </table>
+            </td><!-- col second - 2 -->
+            <td style="width:500px;vertical-align:top;font-size:11px;margin:0px 0 0 0;">
+                <table style="padding:0px 0 5px 0;border:1px solid #003f87;">
+                    <tr style="text-align:left;">
+                        <td colspan="5" style="width:150px;font:bold 13px 'Arial';color: #003f87;">
+                            Supply Required
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Overhead
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            
+                            {{-- style="width:50px;text-align:right;"  --}}
+                            @if($job->supply_required == 'Overhead')  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                           
+                        </td>
+                        <td style="width:150px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Length of Overhead Cable
+                        </td>
+                        <td style="width:80px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            <input type="text" style="width:80px;text-align:center;" value="{{ $job->length_of_overhead_cable }}" />
+                        </td>
+                        <td style="width:150px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            <u>Approximate</u> meters
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Underground
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                           
+                            {{-- style="width:50px;text-align:right;"  --}}
+                             @if($job->supply_required == 'Underground')  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        </td>
+                        <td colspan="4">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Pole to pit
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                            {{-- style="width:50px;text-align:right;"   --}}
+                            @if($job->supply_required == 'Pole to Pit')  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif
+                        </td>
+                        <td style="width:150px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Has pit been installed?
+                        </td>
+                        <td style="width:80px;padding:0px 0 0 0;text-align:center;font:normal 11px 'Arial';color: #003f87;">
+                            Y
+                            {{-- style="width:10px;text-align:right;"  --}}
+                            @if($job->pit_installed == 'Yes')  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                            N
+                            {{-- style="width:10px;text-align:right;"  --}}
+                            @if($job->pit_installed == 'No')  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        </td>
+                        <td style="width:150px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            O/H to U/G Conversion 
+                             {{-- style="width:10px;text-align:right;"  --}}
+                             @if($job->oh_to_ug_conversion == 'Yes')  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            URD
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                          
+                            {{-- style="width:50px;text-align:right;"  --}}
+                            @if($job->supply_required == 'URD')  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        </td>
+                        <td colspan="3" style="width:330px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            (if pit has not been installed please contact the Distribution Company)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Substation
+                        </td>
+                        <td style="width:50px;padding:5px 0 0 0;text-align:right;">
+                             {{-- style="width:50px;text-align:right;"  --}}
+                            @if($job->supply_required == 'Substation')  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        </td>
+                        <td style="width:170px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        NEW MAINS: NO. PHASES
+                        </td>
+                        <td style="width:80px;padding:0px 0 0 0;text-align:center;font:normal 11px 'Arial';color: #003f87;">
+                            1
+                             {{-- style="width:10px;text-align:right;"  --}}
+                            @if($job->no_of_phases == 1 )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                            2
+                             {{-- style="width:10px;text-align:right;"   --}}
+                            @if($job->no_of_phases == 2 )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                            3
+                            {{-- style="width:10px;text-align:right;"  --}}
+                            @if($job->no_of_phases == 3 )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        </td>
+                        <td style="width:80px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                            SIZE <input type="text" style="width:60px;text-align:center;" value="{{ $job->phase_size }}" /> mm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" style="width:170px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        MAX DEMAND Installation
+                        </td>
+                       
+                        <td colspan="2" style="width:170px;padding:0px 0 0 0;text-align:center;font:normal 11px 'Arial';color: #003f87;">
+                        Existing 
+                        {{-- style="width:10px;text-align:right;"   --}}
+                        @if($job->max_demand_installation == "Existing" )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        New 
+                         {{-- style="width:10px;text-align:right;"  --}}
+                        @if($job->max_demand_installation == "New" )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif
+                        </td>
+                        <td colspan="2" style="width:140px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                        Amps per phase  <input type="text" style="width:60px;text-align:center;" value="{{ $job->max_amp_per_phase }}" /> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="width:180px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        MAX DEMAND of TOTAL SITE 
+                        </td>
+                       
+                        <td colspan="3" style="width:280px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            <input type="text" style="width:60px;text-align:center;" value="{{ $job->max_demand_of_total_site }}" /> Amps per phase
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="width:170px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                        Is SCCD Installed
+                        </td>
+                       
+                        <td style="width:170px;padding:0px 0 0 0;text-align:center;font:normal 11px 'Arial';color: #003f87;">
+                        y 
+                         {{-- style="width:10px;text-align:right;" --}}
+                         @if($job->sccd_installed == "yes" )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        N 
+                         {{-- style="width:10px;text-align:right;"  --}}
+                        @if($job->sccd_installed == "no" )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                        </td>
+                        <td style="width:140px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            <input type="text" style="width:60px;text-align:center;" value="{{ $job->sccd_amps }}" /> Amps
+                        </td><td></td>
+                    </tr>
+
+                </table>
+
+            </td><!-- col - three - 3 -->
+
+        </tr>
+    </table><!-- middle row - 2 -->
+
+    <!-- Middle area 2 -->
+
+    <table style="width:800px;margin:0px 0 0 0;padding:0px 0;background-color: #fff;">
+        <tr>
+            <td style="width:500px;vertical-align:top;font-size:11px;margin:0px 0 0 0;border-spacing: 0px;">
+                <table style="padding:0px 0 0px 0;border-spacing: 0px;">
+                    <tr>
+                        <td style="width:150px;vertical-align:top;font-size:11px;margin:0px 0 0 0;border-spacing: 0px;">            
+                            <table style="padding:0px 0px 34px 0px;border:1px solid #003f87;border-spacing: 0px;">
+                                <tr>
+                                    <td>
+                                        <tr style="text-align:left;">
+                                            <td colspan="3" style="width:215px;font:bold 13px 'Arial';color: #003f87;">
+                                            Number of premises
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Single premise
+                                            </td>
+                                            <td colspan="2" style="width:50px;padding:5px 0 0 0;text-align:right;">
+                                                <input type="checkbox" style="width:50px;text-align:right;" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Multiple premises
+                                            </td>
+                                            <td colspan="2" style="width:50px;padding:5px 0 0 0;text-align:right;">
+                                                <input type="checkbox" style="width:50px;text-align:right;" />
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td style="width:75px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Number of units
+                                            </td>
+                                            <td style="width:75px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                                                <input type="text" style="width:75px;text-align:right;" />
+                                            </td>
+                                        </tr>
+                                    </td>    
+                                </tr>
+                            </table>    
+                        </td>    
+                        <td style="width:300px;vertical-align:top;font-size:11px;margin:0px 0 0 0;">            
+                            <table style="padding:0px 0 0px 0;border:1px solid #003f87;">
+                                <tr>
+                                    <td>
+                                        <tr style="text-align:left;">
+                                            <td colspan="2" style="width:300px;font:bold 13px 'Arial';color: #003f87;">
+                                            Metering requirements
+                                            </td>
+                                        </tr>
+                                        <?php
+                                        $meter_phase = array();
+                                        if(isset($job) && $job->meter_phase && $job->meter_phase != '' ) {
+                                            $meter_phase = json_decode($job->meter_phase);
+                                        }
+                                        
+                                        ?> 
+                                        <tr>
+                                            <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Meter Phases: 
+                                            </td>
+                                            <td style="width:200px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Hot water   {!! Form::checkbox('meter_phase[]','Hotwater', in_array('Hotwater',$meter_phase )) !!}  
+                                            Floor Heating {!! Form::checkbox('meter_phase[]','Floor Heating', in_array('Floor Heating',$meter_phase )) !!}
+                                            
+                                            {{-- 1 <input type="checkbox" style="width:15px;text-align:right;" />
+                                            2 <input type="checkbox" style="width:15px;text-align:right;" />
+                                            3 <input type="checkbox" style="width:50px;text-align:right;" /> --}}
+                                            </td>
+                                        </tr>
+                                        {{-- <tr>
+                                            <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            
+                                            </td>
+                                            <td style="width:200px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Hot Water <input type="checkbox" style="width:50px;text-align:right;" />
+                                            Floor Heating <input type="checkbox" style="width:50px;text-align:right;" />
+                                            </td>
+                                        </tr> --}}
+                                        
+                                        <tr>
+                                            <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            CT metering
+                                            </td>
+                                            <td style="width:200px;padding:5px 0 0 0;font:normal 11px 'Arial';color: #003f87;">
+                                                <input type="checkbox" style="width:15px;" />
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Other (specify)
+                                            </td>
+                                            <td style="width:200px;padding:5px 0 0 0;font:normal 11px 'Arial';color: #003f87;">
+                                                <input type="text" style="width:200px;" />
+                                            </td>
+                                        </tr>
+                                    </td>    
+                                </tr>
+                            </table>    
+                        </td>    
+                    </tr> 
+                    
+                    <!-- second row -->
+
+                    <tr>
+                        <td style="width:150px;vertical-align:top;font-size:11px;margin:0px 0 0 0;">            
+                            <table style="padding:0px 0 20px 0;border:1px solid #003f87;">
+                                <tr>
+                                    <td>
+                                        <tr style="text-align:left;">
+                                            <td colspan="3" style="width:150px;font:bold 13px 'Arial';color: #003f87;">
+                                            Termination:
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="width:75px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Group Metering  <input type="checkbox" style="width:10px;" />
+                                            </td>
+                                            <td style="width:75px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                                Pillar  <input type="checkbox" style="width:10px;" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:80px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Substation <input type="checkbox" />
+                                            </td>
+                                            <td style="width:60px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                                            FOLCB <input type="checkbox" />
+                                            </td>
+                                            <td style="width:10px;padding:5px 0 0 0;text-align:right;font:normal 11px 'Arial';color: #003f87;">
+                                            Pit <input type="checkbox" />
+                                            </td>
+                                        </tr>
+                                    </td>    
+                                </tr>
+                            </table>    
+                        </td>    
+                        <td style="width:300px;vertical-align:top;font-size:11px;margin:0px 0 0 0;">            
+                            <table style="padding:0px 0 0px 0;border:1px solid #003f87;">
+                                <tr>
+                                    <td>
+                                        <tr style="text-align:left;">
+                                            <td colspan="2" style="width:300px;font:bold 13px 'Arial';color: #003f87;">
+                                            Embedded Network
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                                Parent <input type="checkbox" style="width:50px;text-align:right;" />
+                                            </td>
+                                            <td style="width:200px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                                Child <input type="checkbox" style="width:50px;text-align:right;" />
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td colspan="2" style="width:300px;padding:0px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            Additional Notes
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="2" style="width:300px;padding:0px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                            <input type="text" style="width:300px;">
+                                            </td>
+                                        </tr>
+                                    </td>    
+                                </tr>
+                            </table>   
+                        </td>    
+                    </tr>   
+
+                </table>
+            </td><!-- col 2 - 1 -->
+
+            <td style="width:300px;vertical-align:top;font-size:11px;margin:0px 0 0 0;">
+                <table style="padding:0px 0 48px 0;border:1px solid #003f87;">
+                    <tr><td style="width:300px;">
+                        <tr style="text-align:left;">
+                            <td colspan="3" style="width:300px;font:bold 13px 'Arial';color: #003f87;">
+                            Truck appointment: 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="width:200px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                                Do you require a truck appointment: 
+                            
+                                Y 
+                                
+                                {{-- style="width:10px;text-align:right;"  --}}
+                                @if($job->truck_appointment == "Yes" )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                                N 
+                                 {{-- style="width:10px;text-align:right;"  --}}
+                                @if($job->truck_appointment == "No" )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+                            </td>
+                        </tr>
+                        <tr style="text-align:left;">
+                            <td colspan="3" style="width:300px;font:normal 11px 'Arial';color: #003f87;">
+                                Appointments are not necessarily supplied for all requests, unless you are
+                                required to complete work in conjunction with the Distribution Company. 
+                            </td>
+                        </tr>
+                        <tr style="text-align:left;">
+                            <td colspan="3" style="width:300px;font:normal 11px 'Arial';color: #003f87;">
+                            Note: CES needs to be supplied at time of appointment
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:50px;padding:5px 0 0 0;font:normal 11px 'Arial';color: #003f87;text-align:left;">
+                            LEI Name
+                            </td>
+                            <td colspan="2" style="width:250px;padding:5px 0 0 0;font:normal 11px 'Arial';color: #003f87;text-align:left;">
+                            <input type="text" style="width:250px;" />
+                            </td>
+                        </tr>
+                        <tr style="text-align:left;">
+                            <td colspan="3" style="width:300px;font:normal 11px 'Arial';color: #003f87;">
+                            Acceptance of charges for the truck appt:    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:100px;padding:5px 0 0 0;text-align:left;font:normal 11px 'Arial';color: #003f87;">
+                            Retailer <input type="checkbox" style="width:10px;text-align:left;" />
+                            Field Works Order <input type="checkbox" style="width:10px;text-align:left;" />
+                            REC <input type="checkbox" style="width:10px;text-align:left;" />
+                            </td>
+                        </tr>
+                    </tr></td>
+                </table>
+
+            </td><!-- col - three - 3 -->
+
+        </tr>
+    </table><!-- middle row - 2 -->
+
+    <!-- middle last  -->
+
+    <table style="width:800px;margin:0px 5px 0px 5px;padding:5px 0 5px 0px;border:1px solid #003f87;">
+        <tr>
+            <td style="width:70px;vertical-align:top;font:bold 12px 'Arial';color: #003f87;margin:0px 0 0 0;">
+                Access:
+            </td>
+            <td style="width:180px;vertical-align:top;font:normal 11px 'Arial';color: #003f87;margin:0px 0 0 0;">
+                To meter position & switchboard 
+            </td>
+            <td style="width:20px;vertical-align:top;font:normal 11px 'Arial';color: #003f87;margin:0px 0 0 0;">
+                 {{-- width="width:10px;" --}}
+                  @if($job->access_to_meter == "Yes" )  <img src="{{ asset('assets/images/checkbox.png') }}"/>  @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  
+            </td>
+
+            <td style="width:120px;vertical-align:top;font:normal 11px 'Arial';color: #003f87;margin:0px 0 0 0;text-align:right;">
+                VPI Lock
+            </td>
+            <td style="width:20px;vertical-align:top;font:normal 11px 'Arial';color: #003f87;margin:0px 0 0 0;">
+                 {{-- width="width:10px;"  --}}
+                 @if($job->access_to_vpi_lock == "Yes" )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/>  @endif  
+            </td>
+
+            <td style="width:120px;vertical-align:top;font:normal 11px 'Arial';color: #003f87;margin:0px 0 0 0;text-align:right;">
+                Access Notes:
+            </td>
+            <td style="width:220px;vertical-align:top;font:normal 11px 'Arial';color: #003f87;margin:0px 0 0 0;">
+                <input type="text" style="width:220px;" value="{{ $job->access_notes }}" />
+            </td>
+        </tr>
+    </table>                
+    <!-- end of middle -->
+
+    <table style="width:800px;margin:5px;padding:0px 0 0px 0px;border:1px solid #003f87;">
+        <tr>
+            <td>
+                <table style="width:800px;">
+                    <tr>
+                        <td style="width:330px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        THE WORK WILL BE SAFE TO CONNECT ON: DATE:
+                        </td>
+                        <td colspan="4" style="width:55px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:130px;" value="{{ @ $job->installation_date }}" />
+                        </td>
+                        {{-- <td style="width:5px;vertical-align:middle;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:center;">
+                            /
+                        </td>
+                        <td style="width:55px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:55px;">
+                        </td>
+                        <td style="width:5px;vertical-align:middle;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:center;">
+                            /
+                        </td>
+                        <td style="width:55px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:55px;"> 
+                        </td> --}}
+                        <td style="width:270px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            OR at Completion of Truck Appointment
+                        </td>
+                        <td style="width:20px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="checkbox" style="width:20px;"> 
+                        </td>
+                    </tr>
+                </table> 
+                
+                <table style="width:800px;">
+                    <tr>
+                        <td style="width:300px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        REGISTERED ELECTRICAL CONTRACTOR
+                        </td>
+                        <td style="width:300px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:300px;" value="{{ $company_details->Company_Name }} " />
+                        </td>
+                        <td style="width:80px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        REC No:
+                        </td>
+                        <td style="width:120px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:120px;" value="{{ $company_details->REC_Number }} " />
+                        </td>
+                    </tr>
+                </table> 
+
+                <table style="width:800px;">
+                    <tr>
+                        <td style="width:300px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        REGISTERED ADDRESS
+                        </td>
+                        <td style="width:300px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:300px;" value="{!! $company_details->Address !!} " />
+                        </td>
+                        <td style="width:80px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        PHONE No:
+                        </td>
+                        <td style="width:120px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:120px;" value="{{ $company_details->Phone  }} " />
+                        </td>
+                    </tr>
+                </table> 
+
+                <table style="width:800px;">
+                    <tr>
+                        <td style="width:600px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:600px;">
+                        </td>
+                        <td style="width:80px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        Email
+                        </td>
+                        <td style="width:120px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:120px;" value="{{ $company_details->Email }} " />
+                        </td>
+                    </tr>
+                </table> 
+
+                <table style="width:800px;">
+                    <tr>
+                        <td style="width:300px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        RESPONSIBLE PERSON: (Please Print)  
+                        </td>
+                        <td style="width:300px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:300px;" value="{{ $company_details->REC_Name }} " />
+                        </td>
+                        {{-- <td style="width:200px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        EMAIL:
+                        </td> --}}
+                        
+                    </tr>
+                </table> 
+                <table style="width:800px;">
+                    <tr>
+                        <td style="width:300px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        SIGNATURE:
+                        </td>
+                        <td style="width:300px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:300px;">
+                        </td>
+                        <td style="width:80px;vertical-align:middle;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                        DATE:
+                        </td>
+                        
+                    
+                        <td colspan="4" style="width:25px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:95px;" value="{{ @ $job->completed_on }} " />
+                        </td>
+                        {{-- <td style="width:5px;vertical-align:middle;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:center;">
+                            /
+                        </td>
+                        <td style="width:25px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:25px;">
+                        </td>
+                        <td style="width:5px;vertical-align:middle;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:center;">
+                            /
+                        </td>
+                        <td style="width:25px;vertical-align:top;font:normal 10px 'Arial';color: #000;margin:0px 0 0 0;text-transform:uppercase;text-align:left;">
+                            <input type="text" style="width:25px;"> 
+                        </td> --}}
+                    
+                    </tr>
+                </table> 
+                <table style="width:800px;">
+                    <tr>
+                        <td style="width:800px;font-size:9px;text-align:left;margin:0;padding:0;">
+                            The Distribution Companies listed below comply with the Australian Privacy Principles applied under the Privacy Act 1988 and any other applicable laws that protect your privacy.
+                            Please refer to the relevant Distribution Companies website for more information on their Privacy Policies.  
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td style="width:800px;font-size:9px;text-align:center;margin:0;padding:0;">
+                        AusNet Services – 1300 360 795 Citipower Pty – 1300 132 894 Jemena – 1300 131 871 Powercor Australia Ltd – 1300 360 410 United Energy – 1300 131 689
+                        </td>    
+                    </tr>
+                </table>
+            </td>    
+        </tr>
+    </table>                
+    <!-- end of middle -->
+
+
+                                
+
+
+	
+
+</body>
+</html>
+

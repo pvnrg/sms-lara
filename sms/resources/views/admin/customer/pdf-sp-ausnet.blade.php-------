@@ -1,0 +1,1565 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="X-UA-Compatible" content="IE=8">
+<TITLE>SP Ausnet Embedded Generator EG and Battery Storage Connection Agreement up to 30kW</TITLE>
+<META name="generator" content="BCL easyConverter SDK 5.0.08">
+<STYLE type="text/css">
+
+body {margin-top: 0px;margin-left: 0px;background-color:#eee;}
+
+#page_1 {position:relative; overflow: hidden;border: none;width: 850px;margin:0px 0 5px 0;padding:20px 0 100px 0;background-color:#fff;}
+
+/*#page_1 #p1dimg1 {position:absolute;top:0px;left:34px;z-index:-1;width:727px;height:1035px;}
+#page_1 #p1dimg1 #p1img1 {width:727px;height:1035px;}
+*/
+
+#page_2 {
+    position: relative;
+    overflow: hidden;
+    margin: 71px 0px 19px 37px;
+    padding: 0px;
+    border: none;
+    width: 806px;
+    margin: 25px 0 52px 0;
+    outline: 1px solid #000;
+    padding: 10px 10px 30px 30px;
+	background-color:#fff;
+}
+
+#page_2 #id_1 {border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 757px;overflow: hidden;}
+#page_2 #id_2 {border:none;margin: 2px 0px 0px 8px;padding: 0px;border:none;width: 696px;overflow: hidden;}
+#page_2 #id_2 #id_2_1 {float:left;border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 366px;overflow: hidden;}
+#page_2 #id_2 #id_2_2 {float:left;border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 330px;overflow: hidden;}
+#page_2 #id_3 {border:none;margin: 0px 0px 0px 2px;padding: 0px;border:none;width: 755px;overflow: hidden;}
+
+#page_2 #p2dimg1 {position:absolute;top:213px;left:0px;z-index:-1;width:651px;height:35px;}
+#page_2 #p2dimg1 #p2img1 {width:651px;height:35px;}
+
+/* custom */
+.page-1{margin:0px 0;}
+.page-2{margin:0px 0;}
+
+.text-center{text-align:center;margin:0 0;}
+.img-relative {
+    position: relative;
+    width: 10%;
+    float: left;
+    margin: 10px 0 0 40px;
+}
+input{background-color:#f5f9c7;}
+.checkbox-1{background-color:#fff;float: right;}
+
+/* end of custom */
+
+.container{padding:40px!important;background: linear-gradient(#1f77b5,#a1c2e3);border-radius:24px;}
+.main-content-area-section{margin:0;padding:0;position:relative;padding:30px;background-color:#ffffff;}
+
+.dclr {clear:both;float:none;height:1px;margin:0px;padding:0px;overflow:hidden;}
+
+.ft0{font: bold 16px 'Arial Narrow';color: #244061;line-height: 20px;}
+.ft1{font: bold 13px 'Arial';color: #00b050;line-height: 16px;}
+.ft2{font: 1px 'Arial';line-height: 1px;}
+.ft3{font: bold 13px 'Arial';color: #244061;line-height: 16px;}
+.ft4{font: bold 13px 'Arial';color: #00b050;line-height: 15px;}
+.ft5{font: 1px 'Arial';line-height: 7px;}
+.ft6{font: 1px 'Arial';line-height: 8px;}
+.ft7{font: 12px 'Arial';color: #00b050;line-height: 15px;}
+.ft8{font: 1px 'Arial';line-height: 15px;}
+.ft9{font: bold 12px 'Arial';color: #244061;line-height: 15px;}
+.ft10{font: 1px 'Arial';line-height: 10px;}
+.ft11{font: 1px 'Arial';line-height: 9px;}
+.ft12{font: bold 11px 'Arial';color: #00b050;line-height: 12px;}
+.ft13{font: 1px 'Arial';line-height: 12px;}
+.ft14{font: bold 12px 'Arial';color: #00b050;line-height: 15px;}
+.ft15{font: italic bold 10px 'Arial';color: #00b050;line-height: 11px;}
+.ft16{font: 1px 'Arial';line-height: 13px;}
+.ft17{font: 1px 'Arial';line-height: 11px;}
+.ft18{font: 1px 'Arial';line-height: 4px;}
+.ft19{font: bold 16px 'Arial';color: #244061;line-height: 18px;}
+.ft20{font: bold 16px 'Arial';color: #244061;line-height: 19px;}
+.ft21{font: 11px 'Arial';color: #244061;line-height: 14px;}
+.ft22{font: 1px 'Arial';line-height: 14px;}
+.ft23{font: 12px 'Arial';color: #244061;line-height: 14px;}
+.ft24{font: bold 13px 'Arial';color: #244061;line-height: 15px;}
+.ft25{font: 12px 'Arial';color: #244061;line-height: 15px;}
+.ft26{font: 1px 'Arial';line-height: 6px;}
+.ft27{font: bold 13px 'Arial';color: #244061;line-height: 12px;}
+.ft28{font: 12px 'Arial';color: #244061;line-height: 11px;}
+.ft29{font: 1px 'Arial';line-height: 3px;}
+.ft30{font: 13px 'Arial';color: #244061;line-height: 16px;}
+.ft31{font: italic bold 11px 'Arial';color: #00b050;line-height: 13px;}
+.ft32{font: 1px 'Arial';line-height: 5px;}
+.ft33{font: bold 13px 'Arial';color: #244061;line-height: 14px;}
+.ft34{font: bold 11px 'Arial';color: #00b050;line-height: 14px;}
+.ft35{font: bold 13px 'Arial';text-decoration: underline;color: #244061;line-height: 16px;}
+.ft36{font: 1px 'Arial';line-height: 2px;}
+.ft37{font: 12px 'Times New Roman';color: #244061;line-height: 1.2;}
+.ft38{font: 12px 'Arial';color: #244061;margin-left: 20px;line-height: 11px;}
+.ft39{font: 12px 'Arial';color: #244061;line-height: 11px;}
+.ft40{font: italic 9px 'Arial';color: #244061;line-height: 11px;}
+.ft41{font: 12px 'Times New Roman';color: #244061;line-height: 12px;}
+.ft42{font: 12px 'Arial';color: #244061;margin-left: 20px;line-height: 12px;}
+.ft43{font: 12px 'Arial';color: #244061;line-height: 12px;}
+.ft44{font: 12px 'Arial';color: #244061;margin-left: 19px;line-height: 11px;}
+.ft45{font: bold 10px 'Arial';text-decoration: underline;color: #244061;line-height: 11px;}
+.ft46{font: 12px 'Arial';color: #244061;margin-left: 19px;line-height: 12px;}
+.ft47{font: bold 13px 'Arial Bold';color: #244061;line-height: 16px;}
+.ft48{font: bold 12px 'Arial';color: #244061;line-height: 11px;}
+.ft49{font: italic 12px 'Arial';color: #244061;line-height: 12px;}
+.ft50{font: 8px 'Arial';color: #244061;line-height: 10px;}
+.ft51{font: bold 9px 'Arial';color: #244061;line-height: 10px;}
+
+.p0{text-align: right;padding-right: 41px;margin-top: 0px;margin-bottom: 0px;}
+.p1{text-align: left;padding-left: 9px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p2{text-align: left;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p3{text-align: left;padding-left: 4px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p4{text-align: left;padding-left: 11px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p5{text-align: left;padding-left: 16px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p6{text-align: left;padding-left: 13px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p7{text-align: right;padding-right: 13px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p8{text-align: right;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p9{text-align: right;padding-right: 22px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p10{text-align: right;padding-right: 21px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p11{text-align: center;padding-right: 16px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p12{text-align: center;padding-right: 13px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p13{text-align: left;padding-left: 6px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p14{text-align: left;padding-left: 7px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p15{text-align: left;padding-left: 18px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p16{text-align: left;padding-left: 8px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p17{text-align: left;padding-left: 38px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p18{text-align: right;padding-right: 17px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p19{text-align: right;padding-right: 10px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p20{text-align: left;padding-left: 47px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p21{text-align: right;padding-right: 19px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p22{text-align: left;padding-left: 36px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p23{text-align: center;padding-left: 24px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p24{text-align: right;padding-right: 7px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p25{text-align: right;padding-right: 6px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p26{text-align: right;padding-right: 4px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p27{text-align: center;padding-right: 26px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p28{text-align: left;padding-left: 3px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p29{text-align: left;padding-left: 40px;margin-top: 8px;margin-bottom: 0px;}
+.p30{text-align: left;padding-left: 40px;margin-top: 30px;margin-bottom: 0px;}
+.p31{text-align: left;padding-left: 40px;margin-top: 31px;margin-bottom: 0px;}
+.p32{text-align: left;padding-left: 57px;margin-top: 23px;margin-bottom: 0px;}
+.p33{text-align: left;padding-left: 29px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p34{text-align: left;padding-left: 28px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p35{text-align: left;padding-left: 20px;padding-right: 68px;margin-top: 0px;margin-bottom: 0px;}
+.p36{text-align: left;padding-left: 112px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p37{text-align: center;padding-right: 1px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p38{text-align: left;padding-left: 24px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p39{text-align: center;padding-right: 2px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p40{text-align: left;padding-left: 20px;padding-right: 67px;margin-top: 15px;margin-bottom: 0px;}
+.p41{text-align: left;padding-left: 49px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p42{text-align: left;padding-left: 8px;margin-top: 30px;margin-bottom: 0px;}
+.p43{text-align: left;padding-left: 24px;padding-right: 18px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p44{text-align: left;padding-left: 24px;padding-right: 11px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p45{text-align: left;padding-left: 24px;padding-right: 37px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p46{text-align: left;margin-top: 1px;margin-bottom: 0px;}
+.p47{text-align: left;margin-top: 0px;margin-bottom: 0px;}
+.p48{text-align: left;padding-left: 24px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p49{text-align: left;padding-left: 24px;padding-right: 3px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p50{text-align: left;padding-left: 24px;padding-right: 4px;margin-top: 1px;margin-bottom: 0px;text-indent: -24px;}
+.p51{text-align: left;padding-left: 18px;margin-top: 0px;margin-bottom: 0px;}
+.p52{text-align: left;padding-left: 1px;margin-top: 5px;margin-bottom: 0px;}
+.p53{text-align: left;padding-left: 1px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p54{text-align: left;padding-left: 14px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p55{text-align: left;padding-left: 1px;margin-top: 2px;margin-bottom: 0px;}
+.p56{text-align: left;padding-left: 1px;padding-right: 46px;margin-top: 3px;margin-bottom: 10px;line-height:1.2;}
+.p57{text-align: left;padding-left: 1px;margin-top: 3px;margin-bottom: 0px;}
+.p58{text-align: left;padding-left: 1px;margin-top: 4px;margin-bottom: 0px;}
+.p59{text-align: left;padding-left: 1px;margin-top: 0px;margin-bottom: 0px;}
+.p60{text-align: left;padding-left: 1px;margin-top: 1px;margin-bottom: 0px;}
+.p61{text-align: left;padding-left: 25px;padding-right: 46px;margin-top: 1px;margin-bottom: 0px;text-indent: -24px;}
+.p62{text-align: left;padding-left: 25px;padding-right: 46px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p63{text-align: justify;padding-left: 25px;padding-right: 46px;margin-top: 0px;margin-bottom: 0px;text-indent: -24px;}
+.p64{text-align: left;padding-left: 18px;margin-top: 28px;margin-bottom: 0px;}
+.p65{text-align: left;padding-left: 1px;padding-right: 54px;margin-top: 6px;margin-bottom: 0px;}
+.p66{text-align: left;padding-left: 1px;margin-top: 7px;margin-bottom: 0px;}
+.p67{text-align: left;padding-left: 613px;margin-top: 0px;margin-bottom: 0px;}
+
+.td0{border-left: #000000 1px solid;border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 131px;vertical-align: bottom;}
+.td1{border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 25px;vertical-align: bottom;}
+.td2{border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 125px;vertical-align: bottom;}
+.td3{border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 53px;vertical-align: bottom;}
+.td4{border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 51px;vertical-align: bottom;}
+.td5{border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 10px;vertical-align: bottom;}
+.td6{border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 92px;vertical-align: bottom;}
+.td7{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 232px;vertical-align: bottom;}
+.td8{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 131px;vertical-align: bottom;}
+.td9{padding: 0px;margin: 0px;width: 25px;vertical-align: bottom;}
+.td10{padding: 0px;margin: 0px;width: 10px;vertical-align: bottom;}
+.td11{padding: 0px;margin: 0px;width: 40px;vertical-align: bottom;}
+.td12{padding: 0px;margin: 0px;width: 29px;vertical-align: bottom;}
+.td13{padding: 0px;margin: 0px;width: 13px;vertical-align: bottom;}
+.td14{padding: 0px;margin: 0px;width: 43px;vertical-align: bottom;}
+.td15{padding: 0px;margin: 0px;width: 31px;vertical-align: bottom;}
+.td16{padding: 0px;margin: 0px;width: 22px;vertical-align: bottom;}
+.td17{padding: 0px;margin: 0px;width: 51px;vertical-align: bottom;}
+.td18{padding: 0px;margin: 0px;width: 38px;vertical-align: bottom;}
+.td19{padding: 0px;margin: 0px;width: 28px;vertical-align: bottom;}
+.td20{padding: 0px;margin: 0px;width: 9px;vertical-align: bottom;}
+.td21{padding: 0px;margin: 0px;width: 17px;vertical-align: bottom;}
+.td22{padding: 0px;margin: 0px;width: 49px;vertical-align: bottom;}
+.td23{padding: 0px;margin: 0px;width: 30px;vertical-align: bottom;}
+.td24{padding: 0px;margin: 0px;width: 46px;vertical-align: bottom;}
+.td25{padding: 0px;margin: 0px;width: 42px;vertical-align: bottom;}
+.td26{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 65px;vertical-align: bottom;}
+.td27{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 131px;vertical-align: bottom;}
+.td28{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 25px;vertical-align: bottom;}
+.td29{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 40px;vertical-align: bottom;}
+.td30{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 29px;vertical-align: bottom;}
+.td31{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 13px;vertical-align: bottom;}
+.td32{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 43px;vertical-align: bottom;}
+.td33{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 31px;vertical-align: bottom;}
+.td34{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 22px;vertical-align: bottom;}
+.td35{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 51px;vertical-align: bottom;}
+.td36{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 10px;vertical-align: bottom;}
+.td37{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 38px;vertical-align: bottom;}
+.td38{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 28px;vertical-align: bottom;}
+.td39{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 9px;vertical-align: bottom;}
+.td40{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 17px;vertical-align: bottom;}
+.td41{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 49px;vertical-align: bottom;}
+.td42{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 30px;vertical-align: bottom;}
+.td43{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 46px;vertical-align: bottom;}
+.td44{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 42px;vertical-align: bottom;}
+.td45{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 65px;vertical-align: bottom;}
+.td46{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 281px;vertical-align: bottom;}
+.td47{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 9px;vertical-align: bottom;}
+.td48{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 216px;vertical-align: bottom;}
+.td49{border-left: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 197px;vertical-align: bottom;}
+.td50{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 55px;vertical-align: bottom;}
+.td51{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 9px;vertical-align: bottom;}
+.td52{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 45px;vertical-align: bottom;}
+.td53{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 135px;vertical-align: bottom;}
+.td54{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 124px;vertical-align: bottom;}
+.td55{border-left: #000000 1px solid;padding: 0px;margin: 0px;width: 239px;vertical-align: bottom;}
+.td56{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 42px;vertical-align: bottom;}
+.td57{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 42px;vertical-align: bottom;}
+.td58{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 66px;vertical-align: bottom;}
+.td59{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 8px;vertical-align: bottom;}
+.td60{padding: 0px;margin: 0px;width: 73px;vertical-align: bottom;}
+.td61{padding: 0px;margin: 0px;width: 92px;vertical-align: bottom;}
+.td62{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 48px;vertical-align: bottom;}
+.td63{padding: 0px;margin: 0px;width: 76px;vertical-align: bottom;}
+.td64{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 140px;vertical-align: bottom;}
+.td65{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 183px;vertical-align: bottom;}
+.td66{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 48px;vertical-align: bottom;}
+.td67{border-left: #000000 1px solid;padding: 0px;margin: 0px;width: 157px;vertical-align: bottom;}
+.td68{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 104px;vertical-align: bottom;}
+.td69{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 76px;vertical-align: bottom;}
+.td70{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 26px;vertical-align: bottom;}
+.td71{padding: 0px;margin: 0px;width: 489px;vertical-align: bottom;}
+.td72{padding: 0px;margin: 0px;width: 66px;vertical-align: bottom;}
+.td73{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 198px;vertical-align: bottom;}
+.td74{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 196px;vertical-align: bottom;}
+.td75{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 196px;vertical-align: bottom;}
+.td76{border-left: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 132px;vertical-align: bottom;}
+.td77{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 39px;vertical-align: bottom;}
+.td78{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 39px;vertical-align: bottom;}
+.td79{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 50px;vertical-align: bottom;}
+.td80{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 75px;vertical-align: bottom;}
+.td81{padding: 0px;margin: 0px;width: 26px;vertical-align: bottom;}
+.td82{padding: 0px;margin: 0px;width: 48px;vertical-align: bottom;}
+.td83{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 27px;vertical-align: bottom;}
+.td84{border-left: #000000 1px solid;padding: 0px;margin: 0px;width: 132px;vertical-align: bottom;}
+.td85{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 50px;vertical-align: bottom;}
+.td86{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 27px;vertical-align: bottom;}
+.td87{border-left: #000000 1px solid;padding: 0px;margin: 0px;width: 313px;vertical-align: bottom;}
+.td88{border-left: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 335px;vertical-align: bottom;}
+.td89{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 225px;vertical-align: bottom;}
+.td90{padding: 0px;margin: 0px;width: 74px;vertical-align: bottom;}
+.td91{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 78px;vertical-align: bottom;}
+.td92{padding: 0px;margin: 0px;width: 88px;vertical-align: bottom;}
+.td93{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 28px;vertical-align: bottom;}
+.td94{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 225px;vertical-align: bottom;}
+.td95{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 29px;vertical-align: bottom;}
+.td96{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 180px;vertical-align: bottom;}
+.td97{border-left: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 157px;vertical-align: bottom;}
+.td98{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 28px;vertical-align: bottom;}
+.td99{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 29px;vertical-align: bottom;}
+.td100{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 180px;vertical-align: bottom;}
+.td101{padding: 0px;margin: 0px;width: 102px;vertical-align: bottom;}
+.td102{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 74px;vertical-align: bottom;}
+.td103{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 48px;vertical-align: bottom;}
+.td104{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 54px;vertical-align: bottom;}
+.td105{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 78px;vertical-align: bottom;}
+.td106{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 153px;vertical-align: bottom;}
+.td107{padding: 0px;margin: 0px;width: 99px;vertical-align: bottom;}
+.td108{padding: 0px;margin: 0px;width: 54px;vertical-align: bottom;}
+.td109{padding: 0px;margin: 0px;width: 79px;vertical-align: bottom;}
+.td110{border-right: #000000 0px solid;padding: 0px;margin: 0px;width: 153px;vertical-align: bottom;}
+.td111{padding: 0px;margin: 0px;width: 0px;vertical-align: bottom;}
+.td112{border-left: #000000 1px solid;border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 612px;vertical-align: bottom;}
+.td113{border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 75px;vertical-align: bottom;}
+.td114{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 32px;vertical-align: bottom;}
+.td115{border-left: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 207px;vertical-align: bottom;}
+.td116{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 94px;vertical-align: bottom;}
+.td117{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 311px;vertical-align: bottom;}
+.td118{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 75px;vertical-align: bottom;}
+.td119{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 32px;vertical-align: bottom;}
+.td120{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 206px;vertical-align: bottom;}
+.td121{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 93px;vertical-align: bottom;}
+.td122{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 311px;vertical-align: bottom;}
+.td123{padding: 0px;margin: 0px;width: 75px;vertical-align: bottom;}
+.td124{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 32px;vertical-align: bottom;}
+.td125{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 206px;vertical-align: bottom;}
+.td126{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 93px;vertical-align: bottom;}
+.td127{border-left: #000000 1px solid;border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 300px;vertical-align: bottom;}
+.td128{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 311px;vertical-align: bottom;}
+.td129{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 104px;vertical-align: bottom;}
+.td130{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 300px;vertical-align: bottom;}
+.td131{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 104px;vertical-align: bottom;}
+.td132{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 300px;vertical-align: bottom;}
+.td133{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 104px;vertical-align: bottom;}
+.td134{border-left: #000000 1px solid;border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 319px;vertical-align: bottom;}
+.td135{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 141px;vertical-align: bottom;}
+.td136{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 122px;vertical-align: bottom;}
+.td137{border-right: #000000 1px solid;border-top: #000000 1px solid;padding: 0px;margin: 0px;width: 131px;vertical-align: bottom;}
+.td138{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 319px;vertical-align: bottom;}
+.td139{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 141px;vertical-align: bottom;}
+.td140{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 122px;vertical-align: bottom;}
+.td141{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 131px;vertical-align: bottom;}
+.td142{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 319px;vertical-align: bottom;}
+.td143{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 141px;vertical-align: bottom;}
+.td144{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 122px;vertical-align: bottom;}
+.td145{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 131px;vertical-align: bottom;}
+.td146{padding: 0px;margin: 0px;width: 410px;vertical-align: bottom;}
+.td147{padding: 0px;margin: 0px;width: 288px;vertical-align: bottom;}
+.td148{padding: 0px;margin: 0px;width: 698px;vertical-align: bottom;}
+.td149{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 151px;vertical-align: bottom;}
+.td150{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 6px;vertical-align: bottom;}
+.td151{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 193px;vertical-align: bottom;}
+.td152{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 60px;vertical-align: bottom;}
+.td153{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 72px;vertical-align: bottom;}
+.td154{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 216px;vertical-align: bottom;}
+.td155{border-left: #000000 1px solid;border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 149px;vertical-align: bottom;}
+.td156{padding: 0px;margin: 0px;width: 6px;vertical-align: bottom;}
+.td157{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 192px;vertical-align: bottom;}
+.td158{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 215px;vertical-align: bottom;}
+.td159{border-left: #000000 1px solid;border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 149px;vertical-align: bottom;}
+.td160{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 192px;vertical-align: bottom;}
+.td161{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 215px;vertical-align: bottom;}
+.td162{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 71px;vertical-align: bottom;}
+.td163{padding: 0px;margin: 0px;width: 193px;vertical-align: bottom;}
+.td164{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 59px;vertical-align: bottom;}
+.td165{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 287px;vertical-align: bottom;}
+.td166{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 59px;vertical-align: bottom;}
+.td167{border-left: #000000 1px solid;padding: 0px;margin: 0px;width: 156px;vertical-align: bottom;}
+.td168{padding: 0px;margin: 0px;width: 60px;vertical-align: bottom;}
+.td169{padding: 0px;margin: 0px;width: 72px;vertical-align: bottom;}
+.td170{border-left: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 150px;vertical-align: bottom;}
+
+.tr0{height: 29px;}
+.tr1{height: 36px;}
+.tr2{height: 15px;}
+.tr3{height: 7px;}
+.tr4{height: 8px;}
+.tr5{height: 21px;}
+.tr6{height: 30px;}
+.tr7{height: 10px;}
+.tr8{height: 22px;}
+.tr9{height: 16px;}
+.tr10{height: 9px;}
+.tr11{height: 26px;}
+.tr12{height: 12px;}
+.tr13{height: 22px;}
+.tr14{height: 13px;}
+.tr15{height: 23px;}
+.tr16{height: 25px;}
+.tr17{height: 11px;}
+.tr18{height: 17px;}
+.tr19{height: 4px;}
+.tr20{height: 18px;}
+.tr21{height: 32px;}
+.tr22{height: 14px;}
+.tr23{height: 33px;}
+.tr24{height: 6px;}
+.tr25{height: 20px;}
+.tr26{height: 3px;}
+.tr27{height: 5px;}
+.tr28{height: 19px;}
+.tr29{height: 24px;}
+.tr30{height: 2px;}
+.tr31{height: 20px;}
+
+.t0{width: 721px;margin-left: 22px;margin-top: 18px;font: bold 13px 'Arial';color: #244061;}
+.t0 {
+    width: 721px;
+    margin-left: 0;
+    padding-left: 22px;
+    margin-top: 18px;
+    font: bold 13px 'Arial';
+    color: #244061;
+}
+.t1{width: 721px;margin-left: 39px;margin-top: 9px;font: bold 13px 'Arial';color: #244061;}
+.t2{width: 718px;margin-top: 9px;font: bold 13px 'Arial';color: #244061;}
+.t3{width: 717px;margin-top: 10px;font: bold 13px 'Arial';color: #244061;}
+.t4{width: 698px;margin-top: 1px;font: bold 13px 'Arial';color: #244061;}
+
+
+
+.input-1{
+	width: 50px;
+	display: inline-block;
+	float: left;
+	height: 10px;
+	margin-bottom: 2px;
+	outline: none;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #000;
+	background-color:#fff;
+	font-size:12px;
+}
+.input-2{
+	width: 70px;
+	display: inline-block;
+	float: left;
+	height: 10px;
+	margin-bottom: 2px;
+	outline: none;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #000;
+	background-color:#fff;
+	font-size:12px;
+}
+.input-3{
+	width: 100px;
+	display: inline-block;
+	float: left;
+	height: 10px;
+	margin-bottom: 2px;
+	outline: none;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #000;
+	background-color:#fff;
+	font-size:12px;
+}
+
+#page_2 {
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0px 19px 37px;
+    padding: 0px;
+    border: none;
+    width: 806px;
+    margin: 0px 0 2px 0;
+    outline: 0px solid #000;
+    padding: 10px 10px 3px 35px;
+}
+
+.p40 {
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 50px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.p35 {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 68px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+</STYLE>
+</HEAD>
+
+<BODY>
+<section class="page-1">
+<DIV id="page_1">
+<DIV id="p1dimg1">
+	<img src="{{ asset('pdf-test-image/sp-ausnet.png') }}" class="img-relative"></DIV>
+
+<DIV class="dclr"></DIV>
+<P class="p0 ft0">AusNet Services Embedded Generator (EG) and Battery Storage Connection Agreement up to 30kW</P>
+<TABLE cellpadding=0 cellspacing=0 class="t0">
+<TR>
+	<TD class="tr0 td0"><P class="p1 ft1">Embedded</P></TD>
+	<TD class="tr0 td1"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=4 rowspan=2 class="tr1 td2"><P class="p2 ft3"> <input type="checkbox" class="checkbox-2">Battery Storage</P></TD>
+	<TD colspan=2 rowspan=2 class="tr1 td3"><P class="p3 ft3"> <img src="{{ asset('assets/images/checkbox.png') }}"/> Solar</P></TD>
+	<TD rowspan=2 class="tr1 td4"><P class="p4 ft3"> <input type="checkbox" class="checkbox-2">Wind</P></TD>
+	<TD class="tr0 td5"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=4 rowspan=2 class="tr1 td6"><P class="p5 ft3"> <input type="checkbox" class="checkbox-2">Hydro</P></TD>
+	<TD colspan=5 rowspan=2 class="tr1 td7"><P class="p2 ft3"> <input type="checkbox" class="checkbox-2">Other energy source…………</P></TD>
+</TR>
+<TR>
+	<TD rowspan=2 class="tr2 td8"><P class="p1 ft4">Generation Type</P></TD>
+	<TD class="tr3 td9"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td10"><P class="p2 ft5">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr4 td9"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td11"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td12"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td13"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td14"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td15"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td16"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td17"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td10"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td18"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td19"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td20"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td21"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td22"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td23"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td24"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td25"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td26"><P class="p2 ft6">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr2 td27"><P class="p1 ft7">(choose multiple)</P></TD>
+	<TD class="tr2 td28"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td29"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td30"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td31"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td32"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td33"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td34"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td35"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td36"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td37"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td38"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td39"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td40"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td41"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td42"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td43"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td44"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td45"><P class="p2 ft8">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=6 class="tr5 td46"><P class="p6 ft1">Customer supply number of Phases</P></TD>
+	<TD class="tr5 td15"><P class="p7 ft9">1  @if($job->no_of_phases == 1) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  </P></TD>
+	<TD class="tr5 td16"><P class="p8 ft9">2  @if($job->no_of_phases == 2) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif </P></TD>
+	<TD class="tr5 td17"><P class="p9 ft9">3  @if($job->no_of_phases == 3) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif </P></TD>
+	<TD class="tr5 td47"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=7 class="tr5 td48"><P class="p4 ft1">Generator / Inverter Phases</P></TD>
+	<TD class="tr5 td25"><P class="p10 ft9">1 @if($job->inverter_phase == 1) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif </P></TD>
+	<TD class="tr5 td26"><P class="p11 ft9">2 @if($job->inverter_phase == 2) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif 
+		 3 @if($job->inverter_phase == 3) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif </P></TD>
+</TR>
+<TR>
+	<TD colspan=3 class="tr3 td49"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td30"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD colspan=2 class="tr3 td50"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td33"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td34"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td35"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td51"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td37"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td38"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td39"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td40"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td41"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td42"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td52"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td44"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td45"><P class="p2 ft5">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=6 class="tr2 td46"><P class="p6 ft4">Does the system include battery storage</P></TD>
+	<TD class="tr2 td15"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td16"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD colspan=5 rowspan=2 class="tr6 td53"><P class="p3 ft3"><input type="checkbox" class="checkbox-2">Yes AC coupled</P></TD>
+	<TD class="tr2 td21"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD colspan=3 rowspan=2 class="tr6 td54"><P class="p5 ft3"><input type="checkbox" class="checkbox-2">Yes DC coupled</P></TD>
+	<TD class="tr2 td25"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD rowspan=2 class="tr6 td26"><P class="p12 ft3"><input type="checkbox" class="checkbox-2">No</P></TD>
+</TR>
+<TR>
+	<TD colspan=5 class="tr2 td55"><P class="p6 ft4">as well as a generation source?</P></TD>
+	<TD class="tr2 td56"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td15"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td16"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td21"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td25"><P class="p2 ft8">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=3 class="tr7 td49"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td30"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td31"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td57"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td33"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td34"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td35"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td36"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD colspan=2 class="tr7 td58"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td59"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td40"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td41"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td42"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td52"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td44"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td45"><P class="p2 ft10">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=5 class="tr8 td55"><P class="p6 ft1">Is an existing Embedded Generator</P></TD>
+	<TD class="tr8 td56"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr8 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=2 rowspan=2 class="tr6 td60"><P class="p1 ft3">
+	@if($job->emb_gen_installed == "Yes") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif Yes
+	@if($job->emb_gen_installed == "No") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  No</P></TD>
+	<TD class="tr8 td47"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=4 class="tr8 td61"><P class="p13 ft3">Existing </P></TD>
+	<TD class="tr8 td62"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=2 class="tr8 td63"><P class="p14 ft3">Existing</P></TD>
+	<TD class="tr8 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr8 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=5 rowspan=2 class="tr9 td55"><P class="p6 ft1">installed at the premise</P></TD>
+	<TD class="tr4 td56"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td15"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td47"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD colspan=5 rowspan=2 class="tr9 td64"><P class="p13 ft3">rating:<input type="text" class="input-1" value="{{ $job->existing_rating }}" />kW</P></TD>
+	<TD colspan=4 rowspan=2 class="tr9 td65"><P class="p14 ft3">export limit:<input type="text" class="input-1" value="{{ $job->export_limit_value }}" />kW</P></TD>
+</TR>
+<TR>
+	<TD class="tr4 td56"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td15"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td16"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td17"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td47"><P class="p2 ft6">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=3 class="tr10 td49"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td30"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td31"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td57"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td33"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td34"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td35"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td51"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td37"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td38"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td39"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td40"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td66"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td42"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td43"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td44"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td45"><P class="p2 ft11">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=5 class="tr11 td55"><P class="p6 ft1"><NOBR>Pre-Approval</NOBR> Reference Number</P></TD>
+	<TD class="tr11 td56"><P class="p2 ft2">&nbsp;</P>{{ $job->pre_approval_number }}</TD>
+	<TD class="tr11 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td17"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td10"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td18"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td19"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td20"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td21"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td22"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td23"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr11 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=2 class="tr12 td67"><P class="p6 ft12">(online assessment only)</P></TD>
+	<TD class="tr12 td11"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td12"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td13"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td56"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td15"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td16"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td17"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td10"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td18"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td19"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td20"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td21"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td22"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td23"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td24"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td25"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td26"><P class="p2 ft13">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=3 class="tr12 td49"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td30"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD colspan=2 class="tr12 td50"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD colspan=3 class="tr12 td68"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD colspan=3 class="tr12 td69"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD colspan=2 class="tr12 td70"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td41"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td42"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td43"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td44"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td45"><P class="p2 ft13">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=14 class="tr13 td71"><P class="p15 ft15"><SPAN class="ft14">SECTION 1: INSTALLATION DETAILS </SPAN>(to be completed and signed by the Installer)</P></TD>
+	<TD class="tr13 td22"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr13 td23"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr13 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr13 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr13 td72"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=3 class="tr14 td73"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td30"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td31"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td32"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td33"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td34"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td35"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td36"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td37"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td38"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td39"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td40"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td41"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td42"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td43"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td44"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td58"><P class="p2 ft16">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=3 class="tr15 td74"><P class="p16 ft3">Installer Company Name</P></TD>
+	<TD class="tr15 td12"><P class="p2 ft2">&nbsp;</P>{{ $companyDetails->Company_Name }}</TD>
+	<TD class="tr15 td13"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td17"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td10"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td18"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td19"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td20"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td21"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td22"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td23"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr15 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=3 class="tr7 td75"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td30"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td31"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td32"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td33"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td34"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td35"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td36"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td37"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td38"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td39"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td40"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td41"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td42"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td43"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td44"><P class="p2 ft10">&nbsp;</P></TD>
+	<TD class="tr7 td45"><P class="p2 ft10">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=3 class="tr16 td74"><P class="p16 ft3">Installer Company Address</P></TD>
+	<TD class="tr16 td12"><P class="p2 ft2">&nbsp;</P>{!! $companyDetails->Address !!}</TD>
+	<TD class="tr16 td13"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td17"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td10"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td18"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td19"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td20"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td21"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td22"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td23"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr16 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr17 td76"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td28"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td77"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td30"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td31"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td32"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td33"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td34"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td35"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD colspan=3 class="tr17 td69"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD colspan=2 class="tr17 td70"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td41"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td42"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td43"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td44"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td45"><P class="p2 ft17">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=2 rowspan=2 class="tr16 td67"><P class="p16 ft9">Installer Phone Number</P></TD>
+	<TD class="tr18 td78"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td12"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td13"><P class="p2 ft2">&nbsp;</P>{{ $companyDetails->Phone }}</TD>
+	<TD class="tr18 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td79"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=3 class="tr18 td80"><P class="p14 ft3">Installer</P></TD>
+	<TD colspan=2 class="tr18 td81"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td22"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td23"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr4 td78"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td12"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td13"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td14"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td15"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td16"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td79"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD colspan=2 rowspan=2 class="tr9 td82"><P class="p14 ft3">Email</P></TD>
+	<TD class="tr4 td83"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td20"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td21"><P class="p2 ft6">&nbsp;</P>{{ $companyDetails->Email }}</TD>
+	<TD class="tr4 td22"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td23"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td24"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td25"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td26"><P class="p2 ft6">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr4 td84"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td9"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td78"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td12"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td13"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td14"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td15"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td16"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td79"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td83"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td20"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td21"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td22"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td23"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td24"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td25"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td26"><P class="p2 ft6">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=3 class="tr19 td75"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td30"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td31"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td32"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td33"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td34"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td85"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td36"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td37"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td86"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td39"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td40"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td41"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td42"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td43"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td44"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td45"><P class="p2 ft18">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=5 class="tr20 td55"><P class="p16 ft19">Total Installed Capacity</P></TD>
+	<TD class="tr20 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td79"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td10"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td18"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td19"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td20"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td21"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td22"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td23"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr20 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD rowspan=2 class="tr21 td26"><P class="p17 ft20">kW</P></TD>
+</TR>
+<TR>
+	<TD colspan=7 class="tr22 td87"><P class="p16 ft21">(Total rating of all existing and new generation ,including</P></TD>
+	<TD class="tr22 td16"><P class="p8 ft21">sum</P></TD>
+	<TD class="tr22 td79"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td10"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td18"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td19"><P class="p2 ft22">&nbsp;</P>{{ $job->solar_capacity_installed / 1000 }}</TD>
+	<TD class="tr22 td20"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td21"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td22"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td23"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td24"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td25"><P class="p2 ft22">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=8 class="tr22 td88"><P class="p16 ft23">of all inverters for generation and battery storage systems)</P></TD>
+	<TD class="tr22 td85"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td36"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td37"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td38"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td39"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td40"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td41"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td42"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td43"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td44"><P class="p2 ft22">&nbsp;</P></TD>
+	<TD class="tr22 td45"><P class="p2 ft22">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr2 td89"><P class="p16 ft24">Total Installed Capacity Per</P></TD>
+	<TD class="tr2 td13"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD colspan=2 rowspan=2 class="tr6 td90"><P class="p18 ft3">Phase A:</P></TD>
+	<TD class="tr2 td16"><P class="p2 ft8">&nbsp;</P>{{ $job->solar_capacity_installed / 1000 }}</TD>
+	<TD rowspan=2 class="tr6 td79"><P class="p19 ft3">kW</P></TD>
+	<TD colspan=4 rowspan=2 class="tr6 td61"><P class="p3 ft3">Phase B:</P></TD>
+	<TD class="tr2 td10"><P class="p2 ft8">&nbsp;</P>N / A</TD>
+	<TD colspan=2 rowspan=2 class="tr6 td91"><P class="p20 ft3">kW</P></TD>
+	<TD colspan=2 rowspan=2 class="tr6 td92"><P class="p21 ft3">Phase C:</P></TD>
+	<TD class="tr2 td10"><P class="p2 ft8">&nbsp;</P>N / A</TD>
+	<TD rowspan=2 class="tr6 td26"><P class="p22 ft3">kW</P></TD>
+</TR>
+<TR>
+	<TD colspan=2 class="tr2 td67"><P class="p16 ft24">Phase</P></TD>
+	<TD class="tr2 td11"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td93"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td13"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td16"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td10"><P class="p2 ft8">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr2 td94"><P class="p16 ft25">(mark N/A for phases not available)</P></TD>
+	<TD class="tr2 td31"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td32"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td33"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td34"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td85"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td36"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td37"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td38"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td39"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td40"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td41"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td95"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td43"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td44"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td45"><P class="p2 ft8">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr2 td89"><P class="p16 ft25"><SPAN class="ft24">Export Limit </SPAN>(if applicable) maximum</P></TD>
+	<TD class="tr2 td13"><P class="p2 ft8">&nbsp;</P>@foreach($products as $product) @if($product->export_limit) <li> {{ $product->export_limit }}</li> @endif @endforeach</TD>
+	<TD class="tr2 td14"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td15"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD class="tr2 td16"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD rowspan=3 class="tr23 td79"><P class="p23 ft3">kW</P></TD>
+	<TD colspan=7 rowspan=2 class="tr5 td96"><P class="p14 ft3">Confirm compliance with</P></TD>
+	<TD class="tr2 td24"><P class="p2 ft8">&nbsp;</P></TD>
+	<TD rowspan=3 class="tr23 td25"><P class="p24 ft3"> @if($products[0]->sop3306_compliant == "Yes"  ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif Yes</P></TD>
+	<TD rowspan=3 class="tr23 td26"><P class="p11 ft3"> @if($products[0]->sop3306_compliant == "No"  ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif No</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 rowspan=2 class="tr20 td89"><P class="p16 ft25">amount to be exported into the</P></TD>
+	<TD class="tr24 td13"><P class="p2 ft26">&nbsp;</P></TD>
+	<TD class="tr24 td14"><P class="p2 ft26">&nbsp;</P></TD>
+	<TD class="tr24 td15"><P class="p2 ft26">&nbsp;</P></TD>
+	<TD class="tr24 td16"><P class="p2 ft26">&nbsp;</P></TD>
+	<TD class="tr24 td24"><P class="p2 ft26">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr12 td13"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td14"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td15"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD class="tr12 td16"><P class="p2 ft13">&nbsp;</P></TD>
+	<TD colspan=7 class="tr12 td96"><P class="p14 ft27">procedure SOP <NOBR>33-06</NOBR></P></TD>
+	<TD class="tr12 td24"><P class="p2 ft13">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=2 class="tr17 td97"><P class="p16 ft28">electricity grid</P></TD>
+	<TD class="tr17 td29"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td98"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td31"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td32"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td33"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td34"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td85"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td36"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td37"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td38"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td39"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td40"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td41"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td95"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td43"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td44"><P class="p2 ft17">&nbsp;</P></TD>
+	<TD class="tr17 td45"><P class="p2 ft17">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr5 td89"><P class="p16 ft3">Generator/ Solar Inverter</P></TD>
+	<TD class="tr5 td13"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td79"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=7 class="tr5 td96"><P class="p14 ft3">Generator/Solar Inverter</P></TD>
+	<TD class="tr5 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=2 class="tr25 td67"><P class="p16 ft3">Manufacturer</P></TD>
+	<TD class="tr25 td11"><P class="p2 ft2">&nbsp;</P>
+	</TD>
+	<TD class="tr25 td93"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td13"><P class="p2 ft2">&nbsp;</P>
+		@foreach($products as $product)
+		    @if($product->category->name == "Solar Inverter")
+		        <li>{{ $product->brand->name }}</li>
+		    @endif
+		@endforeach  </TD>
+	<TD class="tr25 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td79"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=2 class="tr25 td82"><P class="p14 ft3">Model</P></TD>
+	<TD class="tr25 td19"><P class="p2 ft2">&nbsp;</P>
+	</TD>
+	<TD class="tr25 td20"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td21"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td22"><P class="p2 ft2">&nbsp;</P>
+	<TD class="tr25 td99"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td24"><P class="p2 ft2">&nbsp;</P>
+	    @foreach($products as $product)
+	        @if($product->category->name == "Solar Inverter")
+		        <li>{{ $product->model }}</li>
+		    @endif
+		@endforeach </TD>
+	</TD>
+	<TD class="tr25 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr26 td94"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td31"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td32"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td33"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td34"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td85"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD colspan=7 class="tr26 td100"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td43"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td44"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td45"><P class="p2 ft29">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr5 td89"><P class="p16 ft3">Generator/Solar Inverter AC</P></TD>
+	<TD class="tr5 td13"><P class="p2 ft2">&nbsp;</P>
+		@foreach($products as $product)
+		 @if($product->category->name == "Solar Inverter")
+		<li>{{ $product->ac_power_rating }}</li>
+	    @endif
+		@endforeach
+	</TD>
+	<TD class="tr5 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td79"><P class="p24 ft3">kW</P></TD>
+	<TD colspan=7 class="tr5 td96"><P class="p14 ft3">Solar DC Rating</P>
+	</TD>
+	<TD class="tr5 td24"><P class="p2 ft2">&nbsp;</P>
+		@foreach($products as $product)
+		 @if($product->category->name == "Solar Inverter")
+		    <li>{{ $package->kw }}</li>
+		@endif
+		@endforeach</TD>
+	<TD class="tr5 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td26"><P class="p24 ft3">kW</P></TD>
+</TR>
+<TR>
+	<TD colspan=2 class="tr25 td67"><P class="p16 ft3">Power Rating</P></TD>
+	<TD class="tr25 td11"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td93"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td13"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td79"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td10"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td18"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td19"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td20"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td21"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td22"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td99"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr26 td94"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td31"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td32"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td33"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td34"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td85"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD colspan=7 class="tr26 td100"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td43"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td44"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td45"><P class="p2 ft29">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr5 td89"><P class="p16 ft3">Battery Inverter Manufacturer</P></TD>
+	<TD class="tr5 td13"><P class="p2 ft2">&nbsp;</P>
+		@foreach($products as $product)
+		@if($product->category->name == "Battery")
+		<li>{{ $product->name }}</li>
+		@endif
+		@endforeach</TD>
+	<TD class="tr5 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td79"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=7 class="tr5 td96"><P class="p14 ft3">Battery Inverter Model</P></TD>
+	<TD class="tr5 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr25 td89"><P class="p16 ft25"><SPAN class="ft30">(</SPAN>mark N/A if battery DC coupled)</P></TD>
+	<TD class="tr25 td13"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td79"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=7 class="tr25 td96"><P class="p14 ft25">(mark N/A if DC coupled)</P></TD>
+	<TD class="tr25 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr26 td94"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td31"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td32"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td33"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td34"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td85"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD colspan=7 class="tr26 td100"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td43"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td44"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td45"><P class="p2 ft29">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr5 td89"><P class="p16 ft3">Battery Inverter AC Power Rating</P></TD>
+	<TD class="tr5 td13"><P class="p2 ft2">&nbsp;</P>
+		@foreach($products as $product)
+		@if($product->category->name == "Battery")
+		<li>{{ $product->ac_power_rating }}</li>
+		@endif
+		@endforeach</TD>
+	<TD class="tr5 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td79"><P class="p24 ft3">kW</P></TD>
+	<TD colspan=7 class="tr5 td96"><P class="p14 ft3">Battery Rated Storage</P></TD>
+	<TD class="tr5 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td26"><P class="p25 ft3">kWh</P></TD>
+</TR>
+<TR>
+	<TD colspan=4 class="tr25 td89"><P class="p16 ft25">(mark N/A if battery AC coupled)</P></TD>
+	<TD class="tr25 td13"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td14"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td15"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td79"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=5 class="tr25 td101"><P class="p14 ft3">Capacity</P></TD>
+	<TD class="tr25 td22"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td99"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td24"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td25"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr25 td26"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=2 class="tr26 td97"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td29"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td98"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td31"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD colspan=2 class="tr26 td102"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td34"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td85"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD colspan=2 class="tr26 td103"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD colspan=3 class="tr26 td104"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD colspan=2 class="tr26 td105"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD colspan=3 class="tr26 td106"><P class="p2 ft29">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=2 class="tr5 td67"><P class="p16 ft3">Battery Type:</P></TD>
+	<TD class="tr5 td11"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td93"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td13"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=2 class="tr5 td90"><P class="p26 ft3"><NOBR>
+		@if($job->battery_type == "Lead Acid") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif Lead-acid</NOBR></P></TD>
+	<TD class="tr5 td16"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=3 class="tr5 td107"><P class="p27 ft3"><NOBR>
+		 @if($job->battery_type == "Lithium Ion") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif Lithium-ion</NOBR></P></TD>
+	<TD colspan=3 class="tr5 td108"><P class="p2 ft3">
+		 @if($job->battery_type == "Flow") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif Flow</P></TD>
+	<TD colspan=2 class="tr5 td109"><P class="p28 ft3">
+		 @if($job->battery_type == "Salt Water") <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/>  @endif Salt water</P></TD>
+	<TD colspan=2 class="tr5 td110"><P class="p1 ft3">
+		<input type="checkbox" class="checkbox-2">Other:</P></TD>
+	<td><input type="text" class="input-3"></td>
+</TR>
+<TR>
+	<TD class="tr10 td76"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td28"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td29"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td98"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td31"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td32"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td33"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td34"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td35"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td36"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td37"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td38"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td39"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td40"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td41"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td42"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td43"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td44"><P class="p2 ft11">&nbsp;</P></TD>
+	<TD class="tr10 td45"><P class="p2 ft11">&nbsp;</P></TD>
+</TR>
+</TABLE>
+<table style="width:700px;margin:10px 0 0 50px;font: bold 13px 'Arial';color: #244061;line-height: 16px;">
+<tr><td colspan="4"> By signing this agreement, you acknowledge and represent that the information provided is true and correct.</td> </tr>
+<tr>
+	<td> Installer Name: </td>
+	<td> <input type="text" class="input-3" value="{{ $installer->name }}"> </td>
+	<td> Installer Accreditation No.</td>
+	<td> <input type="text" class="input-3" value="{{ $installer->accredition_number }}"> </td>
+</tr>
+<tr>
+	<td> Installer Signature: </td>
+	<td> @if(isset($installer->image)) <img src="{{ asset('/user/'.$installer->image) }}" width="50px" height="30px" />@endif </td>
+	<td> Date:</td>
+	<td> <input type="text" class="input-3" value="{{ @ $job->installation_date }}"> </td>
+</tr>
+
+</table>
+
+<P class="p32 ft31"><SPAN class="ft1">SECTION 2: INSTALLATION COMPLIANCE </SPAN>(to be completed and signed by the Registered Electrical Contractor)</P>
+<TABLE cellpadding=0 cellspacing=0 class="t1">
+<TR>
+	<TD class="tr25 td111"></TD>
+	<TD colspan=3 class="tr25 td112"><P class="p16 ft25"><SPAN class="ft3">Are all inverters ‘Approved Inverters’ </SPAN>From Clean Energy Council Approved Inverter List</P></TD>
+	<TD class="tr25 td113"><P class="p33 ft3"> @if($products[0]->approved_inverter == "Yes" ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  Yes</P></TD>
+	<TD class="tr25 td114"><P class="p2 ft3">  @if($products[0]->approved_inverter == "No" ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  No</P></TD>
+</TR>
+<TR>
+	<TD class="tr27 td111"></TD>
+	<TD class="tr27 td115"><P class="p2 ft32">&nbsp;</P></TD>
+	<TD class="tr27 td116"><P class="p2 ft32">&nbsp;</P></TD>
+	<TD class="tr27 td117"><P class="p2 ft32">&nbsp;</P></TD>
+	<TD class="tr27 td118"><P class="p2 ft32">&nbsp;</P></TD>
+	<TD class="tr27 td119"><P class="p2 ft32">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr22 td111"></TD>
+	<TD class="tr22 td120"><P class="p16 ft33">Operating Manual Provided to</P></TD>
+	<TD rowspan=2 class="tr8 td121"><P class="p34 ft3"> 
+		<!--@if($job->manual_to_customer == "Yes" ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif -->
+		<img src="{{ asset('assets/images/checkbox.png') }}"/>
+		Yes  
+		<!--@if($job->manual_to_customer == "No" ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif  -->
+		<img src="{{ asset('assets/images/checkbox-blank.png') }}"/>
+		No </P></TD>
+	<TD rowspan=2 class="tr8 td122"><P class="p13 ft3">Instructed Customer in Operation of System</P></TD>
+	<TD rowspan=2 class="tr8 td123"><P class="p33 ft3">
+		<!--@if($job->instructed_customer == "Yes" ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif -->
+		<img src="{{ asset('assets/images/checkbox.png') }}"/>
+		Yes</P></TD>
+	<TD rowspan=2 class="tr8 td124"><P class="p2 ft3">
+		<!--@if($job->instructed_customer == "No" ) <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif-->
+		<img src="{{ asset('assets/images/checkbox-blank.png') }}"/>
+		No</P></TD>
+</TR>
+
+<TR>
+	<TD class="tr4 td111"></TD>
+	<TD rowspan=2 class="tr9 td125"><P class="p16 ft3">Customer</P></TD>
+</TR>
+<TR>
+	<TD class="tr4 td111"></TD>
+	<TD class="tr4 td126"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td117"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td118"><P class="p2 ft6">&nbsp;</P></TD>
+	<TD class="tr4 td119"><P class="p2 ft6">&nbsp;</P></TD>
+</TR>
+</TABLE>
+</DIV>
+</section>
+
+<section class="page-2">
+
+
+<DIV id="page_2">
+
+<DIV id="id_1">
+<P class="p35 ft31"><SPAN class="ft1">INVERTER TEST RECORDS: </SPAN><SPAN class="ft34">(</SPAN>test must be conducted at a time of day when the prevailing weather conditions allow the PV system to be producing at least a minimum output. This must be greater than 20% of the rated output of the PV array or the inverter, whichever is less)</P>
+<TABLE cellpadding=0 cellspacing=0 class="t2">
+<TR>
+	<TD class="tr28 td111"></TD>
+	<TD class="tr28 td127"><P class="p16 ft3">Test 1: Time for inverter/s to disconnect.</P></TD>
+	<TD class="tr28 td128"><P class="p36 ft35">Measurement</P></TD>
+	<TD class="tr28 td129"><P class="p1 ft25"><SPAN class="ft35">Result</SPAN> (please</P></TD>
+</TR>
+<TR>
+	<TD class="tr22 td111"></TD>
+	<TD rowspan=2 class="tr29 td130"><P class="p16 ft3">Must be &lt; 2 seconds to pass</P></TD>
+	<TD rowspan=2 class="tr29 td122"><P class="p37 ft3"><input type="text" class="input-3" style="margin-left: 100px;" value="{{ $job->inverter_time_disconnect }}" /> Seconds</P></TD>
+	<TD class="tr22 td131"><P class="p38 ft23">circle one)</P></TD>
+</TR>
+<TR>
+	<TD class="tr7 td111"></TD>
+	<TD rowspan=2 class="tr2 td131"><P class="p4 ft24">Pass/Fail</P></TD>
+</TR>
+<TR>
+	<TD class="tr27 td111"></TD>
+	<TD class="tr27 td130"><P class="p2 ft32">&nbsp;</P></TD>
+	<TD class="tr27 td122"><P class="p2 ft32">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr24 td111"></TD>
+	<TD class="tr24 td132"><P class="p2 ft26">&nbsp;</P></TD>
+	<TD class="tr24 td117"><P class="p2 ft26">&nbsp;</P></TD>
+	<TD class="tr24 td133"><P class="p2 ft26">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr5 td111"></TD>
+	<TD class="tr5 td130"><P class="p16 ft3">Test 2: Time for inverter to reconnect. Must</P></TD>
+	<TD class="tr5 td122"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td131"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr9 td111"></TD>
+	<TD class="tr9 td130"><P class="p16 ft3">be &gt; 60 seconds to pass</P></TD>
+	<TD rowspan=2 class="tr8 td122"><P class="p39 ft3"><input type="text" class="input-3" style="margin-left: 100px;"   value="{{ $job->inverter_time_reconnect }}" />Seconds</P></TD>
+	<TD class="tr9 td131"><P class="p13 ft3">Pass/Fail</P></TD>
+</TR>
+<TR>
+	<TD class="tr24 td111"></TD>
+	<TD class="tr24 td130"><P class="p2 ft26">&nbsp;</P></TD>
+	<TD class="tr24 td131"><P class="p2 ft26">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr27 td111"></TD>
+	<TD class="tr27 td132"><P class="p2 ft32">&nbsp;</P></TD>
+	<TD class="tr27 td117"><P class="p2 ft32">&nbsp;</P></TD>
+	<TD class="tr27 td133"><P class="p2 ft32">&nbsp;</P></TD>
+</TR>
+</TABLE>
+<P class="p40 ft31"><SPAN class="ft1">LIMITED EXPORT TEST RECORDS: </SPAN><SPAN class="ft34">(</SPAN>test must be conducted in accordance with AusNet Services Policy SOP <NOBR>33-06.</NOBR> Please append test record sheet from SOP <NOBR>33-06</NOBR> to this Connection Agreement)</P>
+<TABLE cellpadding=0 cellspacing=0 class="t3">
+<TR>
+	<TD class="tr20 td134"><P class="p16 ft3">Limited Export Commissioning Test has been</P></TD>
+	<TD class="tr20 td135"><P class="p41 ft3"> 
+		<!--@if($job->export_test_sop_3306 == "Yes"  )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif-->
+		<img src="{{ asset('assets/images/checkbox-blank.png') }}"/>
+		Yes 
+		<!--@if($job->export_test_sop_3306 == "No"  )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif -->
+		<img src="{{ asset('assets/images/checkbox-blank.png') }}"/>
+		No</P></TD>
+	<TD class="tr20 td136"><P class="p13 ft3">Test Record</P></TD>
+	<TD class="tr20 td137"><P class="p34 ft3">
+		<!--@if($job->export_test_sheet_attached == "Yes"  )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif -->
+		<img src="{{ asset('assets/images/checkbox-blank.png') }}"/>
+		Yes
+		<!--@if($job->export_test_sheet_attached == "No"  )  <img src="{{ asset('assets/images/checkbox.png') }}"/> @else <img src="{{ asset('assets/images/checkbox-blank.png') }}"/> @endif -->
+		<img src="{{ asset('assets/images/checkbox-blank.png') }}"/>
+		No </P></TD>
+</TR>
+<TR>
+	<TD class="tr18 td138"><P class="p16 ft3">conducted in accordance with SOP <NOBR>33-06</NOBR></P></TD>
+	<TD class="tr18 td139"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td140"><P class="p13 ft3">sheet attached:</P></TD>
+	<TD class="tr18 td141"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr30 td142"><P class="p2 ft36">&nbsp;</P></TD>
+	<TD class="tr30 td143"><P class="p2 ft36">&nbsp;</P></TD>
+	<TD class="tr30 td144"><P class="p2 ft36">&nbsp;</P></TD>
+	<TD class="tr30 td145"><P class="p2 ft36">&nbsp;</P></TD>
+</TR>
+</TABLE>
+<!--<P class="p42 ft3">By signing this agreement, you acknowledge and represent that the information provided is correct and that:</P>-->
+</DIV>
+<DIV id="id_2">
+<table style="font-size:12px;color:#244061;">
+<tr>
+<td colspan="2" style="font:bold 12px 'Arial';line-height:1.2;"><b>By signing this agreement, you acknowledge and represent that the information provided is correct and that: </b></td>
+</tr>
+<tr>
+<td><b style="font-size: 20px;margin: 0;padding: 10px;">.</b>the minimum requirements set out for EG systems up to 3.5 kW/phase (SWER System) up to 5kW/phase (on a Single Phase) and 5kW/phase (on a Three Phase System) have been met;</td>
+<td><b style="font-size: 20px;margin: 0;padding: 10px;">.</b>commissioning tests as specified in the Service & Installation Rules, by AusNet Services, and in section 2 of this agreement have been completed and passed;</td>
+</tr>
+<tr>
+<td><b style="font-size: 20px;margin: 0;padding: 10px;">.</b>the EG complies with the Electricity Safety Act 1998 (Vic) and associated Safety Regulations, the Electricity Distribution Code, the Victorian Service & Installation Rules, AS/NZS3000 (Wiring Rules) and AS4777.2:2015 (Grid Connection of Energy Systems via Inverters), and any other relevant Acts, regulations, standards or guidelines;</td>
+<td><b style="font-size: 20px;margin: 0;padding: 10px;">.</b>a Prescribed Certificate of Electrical Safety (CES) has been obtained with copies of the Electrical Works Request and CES to be sent to the EG owner’s Retailer and a copy of this agreement is to be sent directly to AusNet Services; and</td>
+</tr>
+<tr>
+<td><b style="font-size: 20px;margin: 0;padding: 10px;">.</b>the EG is connected to a dedicated circuit complete with lockable isolating switch at the switchboard;</td>
+<td><b style="font-size: 20px;margin: 0;padding: 10px;">.</b>the EG owner has been advised that the EG should remain switched off until any metering upgrades are complete to avoid potential metering and billing issues.</td>
+</tr>
+<tr>
+<td><b style="font-size: 20px;margin: 0;padding: 10px;">.</b>the main switchboard, isolating fuse/switch/circuit breaker are labelled correctly;</td>
+<td><b style="font-size: 20px;margin: 0;padding: 10px;">.</b>alternative supply signage has been installed;</td>
+</tr>
+</table>
+</DIV>
+<DIV id="id_3">
+
+<table style="width:700px;margin:5px 0 5px 20px;font: bold 13px 'Arial';color: #244061;line-height: 10px;">
+<tr><td colspan="6"> TESTS UNDERTAKEN BY:</td> </tr>
+<tr>
+	<td colspan="3" style="padding:10px 0;"> Licenced Electrical Installation Worker Name</td>
+	<td colspan="3" style="padding:10px 0;"> <input type="text" class="input-3" style="width:200px;" value="{{ $installer->name }}" /> </td>
+</tr>
+<tr>
+	<td> Licence No. </td>
+	<td> <input type="text" class="input-3" style="width:150px;" value="{{ $installer->accredition_number }}"> </td>
+	<td> Date:</td>
+	<td> <input type="text" class="input-3" style="width:150px;" value="{{ @ $job->installtion_date }}"> </td>
+	<td> Signature:</td>
+	<td> <input type="text" class="input-3" style="width:150px;"> </td>
+</tr>
+
+</table>
+
+<TABLE cellpadding=0 cellspacing=0 class="t4">
+<TR>
+	<TD colspan=6 class="tr31 td148"><P class="p15 ft1">SECTION 4: EMBEDDED GENERATOR (EG) OWNER DETAILS <SPAN class="ft31">(to be completed and signed by the EG owner)</SPAN></P></TD>
+</TR>
+<TR>
+	<TD class="tr14 td149"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td150"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td151"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td152"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td153"><P class="p2 ft16">&nbsp;</P></TD>
+	<TD class="tr14 td154"><P class="p2 ft16">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD rowspan=2 class="tr5 td155"><P class="p16 ft3">Customer Name</P></TD>
+	<TD class="tr18 td156"><P class="p2 ft2">&nbsp;</P>{{ $customer->first_name }} {{ $customer->last_name }}  </TD>
+	<TD class="tr18 td157"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=2 class="tr18 td141"><P class="p13 ft3">Customer NMI</P></TD>
+	<TD class="tr18 td158"><P class="p2 ft2">&nbsp;</P>{{ $customer->nmi }}</TD>
+</TR>
+<TR>
+	<TD class="tr19 td156"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td157"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD colspan=2 rowspan=2 class="tr17 td145"><P class="p13 ft39">(Refer to your electricity bill)</P></TD>
+	<TD class="tr19 td158"><P class="p2 ft18">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr3 td159"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td150"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td160"><P class="p2 ft5">&nbsp;</P></TD>
+	<TD class="tr3 td161"><P class="p2 ft5">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr5 td155"><P class="p16 ft3">Supply Address</P></TD>
+	<TD class="tr5 td156"><P class="p2 ft2">&nbsp;</P>{{ $customer->unit }} , {{ $customer->street_number }} , {{ $customer->street_name }} , {{ $customer->lot }} ,  {{ $customer->suburb }} , {{ $customer->state }} - {{ $customer->post_code }}</TD>
+	<TD class="tr5 td157"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD colspan=2 class="tr5 td141"><P class="p13 ft3">Mailing Address</P></TD>
+	<TD class="tr5 td158"><P class="p2 ft2">&nbsp;</P>{{ $customer->email }}</TD>
+</TR>
+<TR>
+	<TD class="tr9 td159"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr9 td150"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr9 td160"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr9 td152"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr9 td162"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr9 td161"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr18 td155"><P class="p16 ft3">Phone Number</P></TD>
+	<TD class="tr18 td156"><P class="p2 ft2">&nbsp;</P>{{ $customer->phone_mobile }}</TD>
+	<TD class="tr18 td155"><P class="p16 ft3">Business Hours:</P></TD>
+	<TD class="tr18 td156"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr18 td155"><P class="p16 ft3">After Hours:</P></TD>
+	<TD class="tr18 td156"><P class="p16 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr19 td159"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td150"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td151"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td166"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td153"><P class="p2 ft18">&nbsp;</P></TD>
+	<TD class="tr19 td161"><P class="p2 ft18">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD colspan=2 class="tr5 td167"><P class="p16 ft3">Existing Meter Number</P></TD>
+	<TD class="tr5 td157"><P class="p2 ft2">&nbsp;</P>{{ $customer->meter_number }}</TD>
+	<TD class="tr5 td168"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td169"><P class="p2 ft2">&nbsp;</P></TD>
+	<TD class="tr5 td158"><P class="p2 ft2">&nbsp;</P></TD>
+</TR>
+<TR>
+	<TD class="tr26 td170"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td150"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td160"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td152"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td153"><P class="p2 ft29">&nbsp;</P></TD>
+	<TD class="tr26 td161"><P class="p2 ft29">&nbsp;</P></TD>
+</TR>
+</TABLE>
+<P class="p55 ft47">CUSTOMER ACKNOWLEDGEMENT, INDEMNITY AND RELEASE</P>
+<P class="p56 ft48">By signing and returning this agreement, and in consideration of AusNet Services allowing you to connect your EG to the distribution network, you acknowledge and represent that you have read, understand and agree to comply with the following connection obligations, and specifically that you:</P>
+<P class="p57 ft43"><SPAN class="ft41">∙</SPAN><SPAN class="ft42">are the owner of the EG listed under the Supply Address in section 3 above;</SPAN></P>
+<P class="p58 ft43"><SPAN class="ft41">∙</SPAN><SPAN class="ft42">confirm all installation details are correct as described in Section 1 above;</SPAN></P>
+<P class="p59 ft43"><SPAN class="ft41">∙</SPAN><SPAN class="ft42">have received an EG operating manual from, and been instructed on the operation of the EG by, the Installation Company detailed in section 1;</SPAN></P>
+<P class="p60 ft43"><SPAN class="ft41">∙</SPAN><SPAN class="ft42">will regularly maintain the EG to confirm its correct performance in accordance with this agreement and keep records of the maintenance performed;</SPAN></P>
+<P class="p61 ft43"><SPAN class="ft41">∙</SPAN><SPAN class="ft42">will ensure that the EG and any equipment within it that is connected to the Victorian electricity grid complies with the Electricity Distribution Code, the </SPAN><SPAN class="ft49">Electricity Safety Act 1998 </SPAN>(Vic) and associated Safety Regulations, all relevant Australian Standards and is maintained in a safe condition;</P>
+<P class="p62 ft43"><SPAN class="ft41">∙</SPAN><SPAN class="ft42">accept that this agreement allows you to connect the EG detailed in this agreement to the Victorian electricity grid, and that you must obtain prior written approval from AusNet Services to alter your EG in any way;</SPAN></P>
+<P class="p63 ft39"><SPAN class="ft37">∙</SPAN><SPAN class="ft38">release and indemnify and agree to keep indemnified AusNet Services, its officers, employees and agents against all actions, proceedings, claims and demands whatsoever which may be brought, including any indirect or consequential loss or any other form of pure economic loss, made or prosecuted against them or any of them by any person in respect of the installation of your EG, particularly in relation to works completed by the Installation Company detailed in section 1 or the compliance certification provided by the registered electrical contractor in section 2, or in respect of connection of your EG to the Victorian electricity grid; and</SPAN></P>
+<P class="p63 ft43"><SPAN class="ft41">∙</SPAN><SPAN class="ft42">in accordance with the Electricity Distribution Code will disconnect, or will allow AusNet Services to disconnect, your EG from the Victorian electricity grid if the EG or any equipment within it breaches the requirements of the Electricity Safety Act 1998 (Vic), any associated Safety Regulations, is not in compliance with any relevant Australian Standards or breaches the agreed installed capacity, export limits or performance requirements set out in this agreement.</SPAN></P>
+
+<table style="width:700px;margin:10px 0 0 00px;font: bold 13px 'Arial';color: #244061;line-height: 16px;">
+<tbody>
+<tr>
+	<td> Customer Name: </td>
+	<td> <input type="text" class="input-3" value="{{ $customer->first_name }} {{ $customer->last_name }}"> </td>
+	<td> Customer Signature:</td>
+	<td> <input type="text" class="input-3"> </td>
+	<td> Date:</td>
+	<td> <input type="text" class="input-3" value="{{ @ $job->installation_date }}"> </td>
+	
+</tr>
+
+</tbody></table>
+
+<P class="p65 ft50">PRIVACY STATEMENT: The personal information you provide in this agreement will be collected by AusNet Services for the purpose of connecting and maintaining the connection of your EG to the Victorian electricity grid. This information will be used and disclosed by AusNet Services in accordance with its privacy policy details of which can be found at the following website: www.ausnetservices.com.au.</P>
+<P class="p66 ft51">Please return the completed and signed agreement (keeping a copy for your reference) to: Mail - Locked bag 14051, Melbourne City Mail Centre, Victoria 8001 Australia</P>
+<P class="p67 ft50"></P>
+</DIV>
+</DIV>
+</section>
+</BODY>
+</HTML>

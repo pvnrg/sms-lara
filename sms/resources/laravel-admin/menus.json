@@ -1,0 +1,147 @@
+{
+  "menus": [
+    {
+      "title": "Settings",
+      "url": "",
+      "permission": "access.settings",
+      "icon": "fa fa-users",
+      "allow_site":"all",
+      "items": [ 
+        {
+          "title": "List Settings",
+          "url": "\/admin\/settings",
+          "permission": "access.settings",
+          "icon": "fa fa-list",
+          "allow_site":"all"
+        },
+        {
+          "title": "Users",
+          "url": "\/admin\/users",
+          "permission": "access.users",
+          "icon": "fa fa-users",
+          "allow_site":"all"
+        }
+
+      ]
+    },
+    {
+      "title": "Permissions",
+      "url": "",
+      "permission": "access.permissions",
+      "icon": "fa fa-users",
+      "allow_site": "all",
+      "items": [
+        {
+          "title": "List Roles",
+          "url": "\/admin\/roles",
+          "permission": "access.roles",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Permissions",
+          "url": "\/admin\/permissions",
+          "permission": "access.permissions",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        }
+      ]
+    },
+    {
+      "title": "Modules",
+      "url": "",
+      "permission": "access.users",
+      "icon": "fa fa-users",
+      "allow_site": "all",
+      "items": [
+        {
+          "title": "List Fees Schedules",
+          "url": "\/admin\/fee_schedules",
+          "permission": "access.fee_schedules",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Sec Ids",
+          "url": "\/admin\/sec_ids",
+          "permission": "access.sec_ids",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Transaction Types",
+          "url": "\/admin\/transaction_types",
+          "permission": "access.transaction_types",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Client Classes",
+          "url": "\/admin\/client_classes",
+          "permission": "access.client_classes",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Skills",
+          "url": "\/admin\/skills",
+          "permission": "access.skills",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Specializations",
+          "url": "\/admin\/specializations",
+          "permission": "access.specializations",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Employee Type",
+          "url": "\/admin\/employeetypes",
+          "permission": "access.employeetypes",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Job Category",
+          "url": "\/admin\/jobcategory",
+          "permission": "access.jobcategory",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Job Experience",
+          "url": "\/admin\/jobexperience",
+          "permission": "access.jobexperience",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        },
+        {
+          "title": "List Job",
+          "url": "\/admin\/job",
+          "permission": "access.job",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        }
+      ]
+    },
+    {
+      "title": "Transactions",
+      "url": "",
+      "permission": "access.users",
+      "icon": "fa fa-users",
+      "allow_site": "all",
+      "items": [
+        {
+          "title": "List Transactions",
+          "url": "\/admin\/transactions",
+          "permission": "access.users",
+          "icon": "fa fa-list",
+          "allow_site": "all"
+        }
+      ]
+    }
+  ]
+}
+
